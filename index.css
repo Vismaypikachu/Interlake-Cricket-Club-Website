@@ -124,7 +124,7 @@ table{
     font-size: 27px;
 }
 
-.schedule tr:nth-child(even){
+tr:nth-child(even){
     background-color: #FFE8A2;
 }
 
