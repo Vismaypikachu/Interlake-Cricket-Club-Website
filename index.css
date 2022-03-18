@@ -20,7 +20,7 @@ html, body {
 }
 
 table{
-    background-color: #b6acac;
+    background-color: #FFCD0F;
     padding: 10px;
 }
 
@@ -41,6 +41,9 @@ table{
     font-size: 27px;
 }
 
+.schedule tr:nth-child(even){
+    background-color: #FFE8A2;
+}
 .comments{
     font-family: Anton;
     font-size: 16px;
