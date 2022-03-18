@@ -23,6 +23,11 @@ table{
     padding: 10px;
 }
 
+.comments{
+    font-family: Anton;
+    font-size: 16px;
+    color: black;
+}
 
 .header{
     width: 100vw;
