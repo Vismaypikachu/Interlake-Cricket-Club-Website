@@ -19,39 +19,6 @@ html, body {
     box-sizing: border-box;
 }
 
-table{
-    border-collapse: collapse;
-    background-color: #FFCD0F;
-    padding: 10px;
-}
-
-.schedule{
-    width: 100%;
-    margin: auto;
-}
-
-.schedule th{
-    font-family: Anton;
-    font-size: 30px;
-    border-bottom: 2px solid black;
-}
-
-.schedule td{
-    text-align: center;
-    font-family: Anton;
-    font-size: 27px;
-}
-
-.schedule tr:nth-child(even){
-    background-color: #FFE8A2;
-}
-
-.comments{
-    font-family: Anton;
-    font-size: 16px;
-    color: black;
-}
-
 .header{
     width: 100vw;
     height: 89px;
@@ -131,6 +98,39 @@ table{
     margin-top: 0;
     margin-bottom: 5rem;
     font-size: 35px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #FFCD0F;
+    padding: 10px;
+}
+
+.schedule{
+    width: 100%;
+    margin: auto;
+}
+
+.schedule th{
+    font-family: Anton;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.schedule td{
+    text-align: center;
+    font-family: Anton;
+    font-size: 27px;
+}
+
+.schedule tr:nth-child(even){
+    background-color: #FFE8A2;
+}
+
+.comments{
+    font-family: Anton;
+    font-size: 16px;
+    color: black;
 }
 
 .yes{
