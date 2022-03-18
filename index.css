@@ -116,13 +116,16 @@ table{
     font-family: Anton;
     font-size: 30px;
     background-color: #FFCD0F;
-    border-bottom: 2px solid black;
 }
 
 .schedule td{
     text-align: center;
     font-family: Anton;
     font-size: 27px;
+}
+
+tr{
+    border-bottom: 2px solid black;
 }
 
 tr:nth-child(even){
