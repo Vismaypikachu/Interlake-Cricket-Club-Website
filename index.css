@@ -23,6 +23,23 @@ table{
     padding: 10px;
 }
 
+.schedule{
+    width: 100%;
+    margin: auto;
+}
+
+.schedule th{
+    font-family: Anton;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.schedule td{
+    text-align: center;
+    font-family: Anton;
+    font-size: 27px;
+}
+
 .comments{
     font-family: Anton;
     font-size: 16px;
@@ -98,23 +115,6 @@ table{
 
 #iccHeading{
     font-family: Anton;
-}
-
-.schedule{
-    width: 100%;
-    margin: auto;
-}
-
-.schedule th{
-    font-family: Anton;
-    font-size: 30px;
-    border-bottom: 2px solid black;
-}
-
-.schedule td{
-    text-align: center;
-    font-family: Anton;
-    font-size: 27px;
 }
 
 .yes{
