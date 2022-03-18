@@ -20,6 +20,7 @@ html, body {
 }
 
 table{
+    border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
 }
@@ -44,6 +45,7 @@ table{
 .schedule tr:nth-child(even){
     background-color: #FFE8A2;
 }
+
 .comments{
     font-family: Anton;
     font-size: 16px;
