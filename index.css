@@ -97,7 +97,7 @@ html, body {
     font-family: Anton;
     margin-top: 0;
     margin-bottom: 5rem;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 table{
@@ -125,7 +125,7 @@ table{
 }
 
 tr{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000000;
 }
 
 tr:nth-child(even){
