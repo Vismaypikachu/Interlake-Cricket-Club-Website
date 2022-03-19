@@ -162,3 +162,11 @@ tr:nth-child(even){
     font-size: 25px;
     text-align: center;
 }
+
+.joinUs{
+    width: 100%;
+    font-family: Avenir;
+    font-size: 20px;
+
+    background-color: #FAFAFA;
+}
