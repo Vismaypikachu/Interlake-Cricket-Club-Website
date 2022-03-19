@@ -149,6 +149,14 @@ tr:nth-child(even){
     background-color: greenyellow;
 }
 
+.president{
+    display: flex;
+    font-family: Anton;
+    font-size: 25px;
+    text-align: center;
+    gap: 20px;
+}
+
 .officers{
     display: flex;
     font-family: Anton;
