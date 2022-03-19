@@ -158,8 +158,6 @@ tr:nth-child(even){
 
 .officers{
     width: 100%;
-    display: inline;
-    
     font-family: Avenir;
     font-size: 25px;
     text-align: center;
