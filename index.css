@@ -103,14 +103,14 @@ html, body {
 #eventHeader{
     font-family: Avenir;
     text-align: center;
-    font-size: 35px;
+    font-size: 35px; 
 }
 
 table{
     border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
-    border-bottom: 2px;
+    border: 2px;
 }
 
 .schedule{
