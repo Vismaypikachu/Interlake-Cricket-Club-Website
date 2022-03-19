@@ -110,7 +110,7 @@ table{
     border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
-    border: 2px;
+    border: 2px solid black;
 }
 
 .schedule{
