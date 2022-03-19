@@ -150,6 +150,7 @@ tr:nth-child(even){
 }
 
 .officers{
+    display: flex;
     font-family: Anton;
     font-size: 25px;
     text-align: center;
