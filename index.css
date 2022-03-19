@@ -150,11 +150,10 @@ tr:nth-child(even){
 }
 
 .president{
-    display: flex;
+    width: 100%;
     font-family: Avenir;
     font-size: 25px;
     text-align: center;
-    gap: 20px;
 }
 
 .officers{
