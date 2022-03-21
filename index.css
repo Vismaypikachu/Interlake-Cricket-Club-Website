@@ -145,6 +145,7 @@ tr:nth-child(even){
     font-family: Anton;
     font-size: 16px;
     color: black;
+    margin-bottom: 0;
 }
 
 .yes{
@@ -172,10 +173,14 @@ tr:nth-child(even){
     border-top: 2px solid black;
     background-color: white;
     padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .joinUs p{
     font-size: 20px;
+    max-width: 80%;
 }
 
 .footer{
