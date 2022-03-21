@@ -123,12 +123,14 @@ table{
     font-family: Avenir;
     font-size: 30px;
     background-color: #FFCD0F;
+    text-align: center;
 }
 
 .schedule td{
-    text-align: center;
     font-family: Anton;
     font-size: 27px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 tr{
@@ -179,13 +181,15 @@ tr:nth-child(even){
 .footer{
     width: 100%;
     height: 100px;
-    line-height: 100px;
 
     background-color: #333232;
     color: white;
 
     font-family: Avenir; 
     font-size: 20px;
-    text-align: center; 
-    vertical-align: middle;
+
+    /* Use below when centering text in a div*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
