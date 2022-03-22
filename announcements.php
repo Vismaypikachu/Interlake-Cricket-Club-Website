@@ -32,10 +32,10 @@
     <div class = "articleHolder">
     
         <?php
-            $host = "ibcasserver.mysql.database.azure.com";
-            $username = "ibcasvismay@ibcasserver";
-            $password = "jointechsavvyyouth1!";
-            $db_name = "cricket";
+            // $host = "ibcasserver.mysql.database.azure.com";
+            // $username = "ibcasvismay@ibcasserver";
+            // $password = "jointechsavvyyouth1!";
+            // $db_name = "cricket";
             echo "hi";
 
 
