@@ -37,17 +37,14 @@
             $host = "ibcasserver.mysql.database.azure.com";
             $username = "ibcasvismay@ibcasserver";
             $password = "jointechsavvyyouth1!";
+            echo "hello";
             $db_name = "cricket";
-
+            echo "hello2";
             
             $conn = mysqli_init();
-           
+            echo "hello3";
             mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
-            
-            if (mysqli_connect_errno()) {
-                die("Failed to connect to MYSQL: " . mysqli_connect_error());
-            }
-            
+                     
 
 
             $sql = "SELECT * FROM announcements";
