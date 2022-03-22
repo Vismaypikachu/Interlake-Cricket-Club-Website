@@ -32,11 +32,13 @@
     <div class = "articleHolder">
         
         <?php
+            echo "hello";
+
             $host = "ibcasserver.mysql.database.azure.com";
             $username = "ibcasvismay@ibcasserver";
             $password = "jointechsavvyyouth1!";
             $db_name = "cricket";
-            
+
 
 
             $conn = mysqli_init();
@@ -46,7 +48,8 @@
                 die("Failed to connect to MYSQL: ".mysqli_connect_error());
             }
                 
-                
+            echo "hello2";
+            
             $sql = "SELECT * FROM announcements";
             $result = $conn->query($sql);
             if($result->num_rows > 0){
@@ -73,7 +76,6 @@
         ?>
         
     </div>
-
 
 
     <br><br>
