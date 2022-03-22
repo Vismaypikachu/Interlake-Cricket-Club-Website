@@ -17,7 +17,7 @@
         </div>
         <div class="navLinks">
             <a href = "index.html">Home</a>
-            <a class = "active" href = "announcements.html">Announcements</a>
+            <a class = "active" href = "announcements.php">Announcements</a>
             <a href="index.html">Join the Club</a>
         </div>
     </div>
@@ -30,40 +30,46 @@
 
 
     <div class = "articleHolder">
+    
+        <?php
+            $host = "ibcasserver.mysql.database.azure.com";
+            $username = "ibcasvismay@ibcasserver";
+            $password = "jointechsavvyyouth1!";
+            $db_name = "cricket";
 
-        <div class="article" style="width: 18rem;">
-            <img src="/src/images/ICC LOGO.svg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">WORK IN PROGRESS</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <form action="https://www.w3docs.com/">
-                    <button type="submit">Read this</button>
-                </form>
-            </div>
-        </div>
 
-        <div class="article" style="width: 18rem;">
-            <img src="/src/images/ICC LOGO.svg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">WORK IN PROGRESS</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <form action="https://www.w3docs.com/">
-                    <button type="submit">Read this</button>
-                </form>
-            </div>
-        </div>
+            $conn = mysqli_init();
+            mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        <div class="article" style="width: 18rem;">
-            <img src="/src/images/ICC LOGO.svg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">WORK IN PROGRESS</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <form action="https://www.w3docs.com/">
-                    <button type="submit">Read this</button>
-                </form>
-            </div>
-        </div>
+            if (mysqli_connect_errno()) {
+                die("Failed to connect to MYSQL: ".mysqli_connect_error());
+            }
+                
+                
+            $sql = "SELECT * FROM announcements";
+            $result = $conn->query($sql);
+            if($result->num_rows > 0){
+                while ($row = $result->fetch_assoc()) {
+                    echo "
 
+                        <div class=\"article\" style=\"width: 18rem;\">
+                        <img src=\"" .$row['imageURL']. "\" class=\"card-img-top\">
+                        <div class=\"card-body\">
+                            <h5 class=\"card-title\">" .$row['heading']. "</h5>
+                            <p class=\"card-text\">" .$row['summary']. "</p>
+                            <form action=\"" .$row['articleLink']. "\">
+                                <button type=\"submit\">Read this</button>
+                            </form>
+                        </div>
+                    
+                    ";
+                }
+            }
+            else{
+                echo "Error, please contact Vismay Patel";
+            }
+        
+        ?>
         
     </div>
 
