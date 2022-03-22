@@ -36,38 +36,39 @@
             $username = "ibcasvismay@ibcasserver";
             $password = "jointechsavvyyouth1!";
             $db_name = "cricket";
+            echo "hi";
 
 
-            $conn = mysqli_init();
-            mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+            // $conn = mysqli_init();
+            // mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-            if (mysqli_connect_errno()) {
-                die("Failed to connect to MYSQL: ".mysqli_connect_error());
-            }
+            // if (mysqli_connect_errno()) {
+            //     die("Failed to connect to MYSQL: ".mysqli_connect_error());
+            // }
                 
                 
-            $sql = "SELECT * FROM announcements";
-            $result = $conn->query($sql);
-            if($result->num_rows > 0){
-                while ($row = $result->fetch_assoc()) {
-                    echo "
+            // $sql = "SELECT * FROM announcements";
+            // $result = $conn->query($sql);
+            // if($result->num_rows > 0){
+            //     while ($row = $result->fetch_assoc()) {
+            //         echo "
 
-                        <div class=\"article\" style=\"width: 18rem;\">
-                        <img src=\"" .$row['imageURL']. "\" class=\"card-img-top\">
-                        <div class=\"card-body\">
-                            <h5 class=\"card-title\">" .$row['heading']. "</h5>
-                            <p class=\"card-text\">" .$row['summary']. "</p>
-                            <form action=\"" .$row['articleLink']. "\">
-                                <button type=\"submit\">Read this</button>
-                            </form>
-                        </div>
+            //             <div class=\"article\" style=\"width: 18rem;\">
+            //             <img src=\"" .$row['imageURL']. "\" class=\"card-img-top\">
+            //             <div class=\"card-body\">
+            //                 <h5 class=\"card-title\">" .$row['heading']. "</h5>
+            //                 <p class=\"card-text\">" .$row['summary']. "</p>
+            //                 <form action=\"" .$row['articleLink']. "\">
+            //                     <button type=\"submit\">Read this</button>
+            //                 </form>
+            //             </div>
                     
-                    ";
-                }
-            }
-            else{
-                echo "Error, please contact Vismay Patel";
-            }
+            //         ";
+            //     }
+            // }
+            // else{
+            //     echo "Error, please contact Vismay Patel";
+            // }
         
         ?>
         
