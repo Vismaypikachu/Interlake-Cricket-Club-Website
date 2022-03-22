@@ -39,7 +39,7 @@
             $password = "jointechsavvyyouth1!";
             $db_name = "cricket";
 
-
+            echo "helloooo";
             $conn = mysqli_init();
             echo "hello2";
             mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
