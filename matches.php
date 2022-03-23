@@ -78,6 +78,7 @@
                                 <td class = \"winner\">". $row["homeTeam"] . "</td>
                                 <td class = \"loser\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
                             </tr>
                         ";
                     }
@@ -89,6 +90,7 @@
                                 <td class = \"tie\">". $row["homeTeam"] . "</td>
                                 <td class = \"tie\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
                             </tr>
                         ";
                     }                    
