@@ -88,6 +88,14 @@ html, body {
     font-size: 55px;
 }
 
+.blue{
+    color: #49a4ff;
+}
+
+.red{
+    color: red;
+}
+
 .articleHolder{
     width: 80%;
 }
