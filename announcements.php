@@ -49,9 +49,9 @@
                     echo "
                         <div class=\"article\" style=\"width: 18rem;\">
                             <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
-                            <div class=\"card-body\">
-                                <h5 class=\"card-title\">" . $row['heading'] . "</h5>
-                                <p class=\"card-text\">" . $row['summary'] . "</p>
+                            <div class=\"articleBody\">
+                                <h5 class=\"articleHeading\">" . $row['heading'] . "</h5>
+                                <p class=\"articleSummary\">" . $row['summary'] . "</p>
                                 <form action=\"" . $row['articleLink'] . "\">
                                     <button type=\"submit\">Read this</button>
                                 </form>
