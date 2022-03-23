@@ -50,8 +50,8 @@
                         <div class=\"article\" style=\"width: 18rem;\">
                             <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
                             <div class=\"articleBody\">
-                                <h5 class=\"articleHeading\">" . $row['heading'] . "</h5>
-                                <p class=\"articleSummary\">" . $row['summary'] . "</p>
+                                <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
+                                <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "</p>
                                 <form action=\"" . $row['articleLink'] . "\">
                                     <button type=\"submit\">Read this</button>
                                 </form>
