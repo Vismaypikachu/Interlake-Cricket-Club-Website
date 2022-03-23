@@ -89,7 +89,11 @@ html, body {
 }
 
 .articleHolder{
-    text-align: center; 
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .articleHolder h3{
