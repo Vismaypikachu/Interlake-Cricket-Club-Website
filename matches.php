@@ -32,15 +32,15 @@
     <br>
 
 
-    <div class="matchDisplayer">
+    <div class="matchList">
         <h3>Matches</h3>
 
         <table id="table">
             <tr>
                 <th>ID (Internal Use)</th>
                 <th>Match Date</th>
-                <th>Winning Team</th>
-                <th>Losing Team</th>
+                <th>Home Team</th>
+                <th>Away Team</th>
                 <th>Player of the Match</th>
             </tr>
         <?php
@@ -60,9 +60,9 @@
                         <tr>
                             <td>". $row["id"] ."</td>
                             <td>". $row["matchDate"] ."</td>
-                            <td>". $row["winningTeam"] . "</td>
-                            <td>". $row["losingTeam"] ."</td>
-                            <td>". $row["playerOfTheMatch"] ."</td>
+                            <td>". $row["homeTeam"] . "</td>
+                            <td>". $row["awayTeam"] ."</td>
+                            <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                         </tr>
                     ";
                 }
