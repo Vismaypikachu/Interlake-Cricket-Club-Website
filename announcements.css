@@ -91,7 +91,7 @@ html, body {
 .articleHolder{
     width: 80%;
 
-    display: flex;
+    display: inline;
     align-items: center;
     flex-direction: column;
 }
