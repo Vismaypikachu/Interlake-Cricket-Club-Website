@@ -43,6 +43,7 @@
                 <th>Home Team</th>
                 <th>Away Team</th>
                 <th>Player of the Match</th>
+                <th>View Results</th>
             </tr>
         <?php
             $host = "ibcasserver.mysql.database.azure.com";
@@ -59,15 +60,14 @@
                 while ($row = $result->fetch_assoc()) {
                     if($row["winner"] == "away"){
                         echo "
-                            <a href=\"match". $row["id"] .".html\">
                                 <tr>
                                     <td class = \"id\">". $row["id"] ."</td>
                                     <td>". $row["matchDate"] ."</td>
                                     <td class = \"loser\">". $row["homeTeam"] . "</td>
                                     <td class = \"winner\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                    <td> <a href=\"match". $row["id"] .".html\">Match Results</td>
                                 </tr>
-                            </a>
                         ";
                     }
                     else if($row["winner"] == "home"){
