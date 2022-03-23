@@ -34,6 +34,7 @@
 
     <div class="matchList">
         <h3>Matches</h3>
+        <h5>Green = Winner, Red = Loser, Yellow = Tie</h5>
 
         <table id="table">
             <tr>
