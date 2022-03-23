@@ -37,7 +37,7 @@
 
         <table id="table">
             <tr>
-                <th style="width: 15%;">ID (Internal Use)</th>
+                <th style="width: 10%;">ID (Internal Use)</th>
                 <th>Match Date</th>
                 <th>Home Team</th>
                 <th>Away Team</th>
