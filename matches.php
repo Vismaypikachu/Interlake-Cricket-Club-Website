@@ -56,15 +56,39 @@
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
-                    echo "
-                        <tr>
-                            <td class = \"id\">". $row["id"] ."</td>
-                            <td>". $row["matchDate"] ."</td>
-                            <td>". $row["homeTeam"] . "</td>
-                            <td>". $row["awayTeam"] ."</td>
-                            <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                        </tr>
-                    ";
+                    if($row["winner"] == "away"){
+                        echo "
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"loser\">". $row["homeTeam"] . "</td>
+                                <td class = \"winner\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                            </tr>
+                        ";
+                    }
+                    else if($row["winner"] == "home"){
+                        echo "
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"winner\">". $row["homeTeam"] . "</td>
+                                <td class = \"loser\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                            </tr>
+                        ";
+                    }
+                    else{
+                        echo "
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"tie\">". $row["homeTeam"] . "</td>
+                                <td class = \"tie\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                            </tr>
+                        ";
+                    }                    
                 }
                 echo "</table>";
             } 

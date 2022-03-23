@@ -141,6 +141,18 @@ td .id{
     margin-bottom: 0;
 }
 
+.winner{
+    background-color: #95d13c;
+}
+
+.loser{
+    background-color: #c53333;
+}
+
+.tie{
+    background-color: #e9dd3c;
+}
+
 footer{
     width: 100%;
     height: 100px;
