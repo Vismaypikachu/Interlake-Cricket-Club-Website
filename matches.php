@@ -66,7 +66,7 @@
                                     <td class = \"loser\">". $row["homeTeam"] . "</td>
                                     <td class = \"winner\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                    <td> <a href=\"match". $row["id"] .".html\">Match Results</a></td>
+                                    <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
                                 </tr>
                         ";
                     }
