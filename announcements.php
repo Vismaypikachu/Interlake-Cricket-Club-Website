@@ -21,7 +21,7 @@
             <a href="index.html">Home</a>
             <a class="active" href="announcements.php">Announcements</a>
             <a href="index.html">Join the Club</a>
-            <a href="scores.php">Scores</a>
+            <a href="matches.php">Matches</a>
         </div>
     </div>
 
