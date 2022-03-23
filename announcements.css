@@ -90,12 +90,14 @@ html, body {
 
 .articleHolder{
     text-align: center; 
+}
+
+.articleHolder h3{
     font-family: Avenir; 
     font-size: 45px; 
     text-decoration: underline;
     border: 2px solid black;
 }
-
 
 footer{
     width: 100%;
