@@ -89,7 +89,7 @@ html, body {
 }
 
 .articleHolder{
-    max-width: 80%;
+    width: 80%;
 }
 
 .articleHolder h3{
