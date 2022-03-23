@@ -89,12 +89,17 @@ html, body {
 }
 
 .articleHolder{
-    width: 100%;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .articleHolder h3{
     font-family: Avenir; 
     font-size: 45px; 
+    text-align: center;
     text-decoration: underline;
     border: 2px solid black;
 }
