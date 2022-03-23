@@ -59,13 +59,15 @@
                 while ($row = $result->fetch_assoc()) {
                     if($row["winner"] == "away"){
                         echo "
-                            <tr>
-                                <td class = \"id\">". $row["id"] ."</td>
-                                <td>". $row["matchDate"] ."</td>
-                                <td class = \"loser\">". $row["homeTeam"] . "</td>
-                                <td class = \"winner\">". $row["awayTeam"] ."</td>
-                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                            </tr>
+                            <a href=\"match". $row["id"] .".html\">
+                                <tr>
+                                    <td class = \"id\">". $row["id"] ."</td>
+                                    <td>". $row["matchDate"] ."</td>
+                                    <td class = \"loser\">". $row["homeTeam"] . "</td>
+                                    <td class = \"winner\">". $row["awayTeam"] ."</td>
+                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                </tr>
+                            </a>
                         ";
                     }
                     else if($row["winner"] == "home"){
