@@ -90,6 +90,11 @@ html, body {
 
 .articleHolder{
     width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .articleHolder h3{
