@@ -58,7 +58,7 @@
                 while ($row = $result->fetch_assoc()) {
                     echo "
                         <tr>
-                            <td>". $row["id"] ."</td>
+                            <td class = \"id\">". $row["id"] ."</td>
                             <td>". $row["matchDate"] ."</td>
                             <td>". $row["homeTeam"] . "</td>
                             <td>". $row["awayTeam"] ."</td>

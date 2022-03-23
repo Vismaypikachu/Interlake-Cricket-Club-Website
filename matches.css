@@ -129,6 +129,10 @@ html, body {
     background-color: #FFE8A2;
 }
 
+.id{
+    width: 15%;
+}
+
 .playerOfMatch{
     font-family: Anton;
     font-size: 16px;
