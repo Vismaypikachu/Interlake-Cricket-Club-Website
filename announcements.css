@@ -89,6 +89,10 @@ html, body {
 }
 
 .articleHolder{
+    text-align: center; 
+    font-family: Avenir; 
+    font-size: 45px; 
+    text-decoration: underline;
     border: 2px solid black;
 }
 

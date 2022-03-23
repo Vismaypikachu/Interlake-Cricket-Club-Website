@@ -32,8 +32,8 @@
 
 
     <div class="articleHolder">
-
-        <?php
+        <h3>Announcements</h3>
+        <?
             $host = "ibcasserver.mysql.database.azure.com";
             $username = "ibcasvismay@ibcasserver";
             $password = "jointechsavvyyouth1!";
