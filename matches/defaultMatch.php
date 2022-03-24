@@ -60,7 +60,7 @@
 
     <div class = "match">
         <div style = "margin: 0 auto" class = "matchHeader">
-            <h3><?php echo $heading; ?></h3>
+            <h3 style = "text-align: center;"><?php echo $heading; ?></h3>
         </div>
 
 
