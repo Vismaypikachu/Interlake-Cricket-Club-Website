@@ -9,15 +9,21 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        echo $_POST['articleNumber'];
         $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'];
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-            echo "success " . $_POST['articleNumber'];
+            echo "success";
+            $heading = $row['heading'];
+            $author = $row['author'];
+            $articleDate = $row['articleDate'];
+            $imageURL = $row['imageURL'];
+            $content = $row['content'];
+            $articleNumber = $row['articleNumber'];
         }
         else{
             echo "Error, please contact Vismay Patel";
         }
+
         $conn->close();
     ?>
 
@@ -32,7 +38,7 @@
 </head>
 <body>
     
-    <!-- <div class="header">
+    <div class="header">
         <div class="leftHeader">
             <img height="60px" src="/src/images/ICC LOGO.svg">
             <span class="headerTitle">Interlake Cricket Club</span>
@@ -53,9 +59,9 @@
 
     <div class = "article">
         <div class = "articleHeader">
-            <h3></h3>
+            <h3><?php echo $heading ?></h3>
         </div>
-    </div>   -->
+    </div>  
 
 </body>
 </html>
