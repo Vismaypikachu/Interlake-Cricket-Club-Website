@@ -96,21 +96,22 @@ html, body {
     color: red;
 }
 
-.articleHolder{
-    margin: 0 auto;
-    width: 80%;
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-.articleHolder h3{
+.announcementsHeader {
     font-family: Avenir; 
     font-size: 45px; 
     text-align: center;
     text-decoration: underline;
     border: 2px solid black;
 }
+
+.articleHolder{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 
 .article{
     border: 2px solid black;

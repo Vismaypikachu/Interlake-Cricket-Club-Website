@@ -31,9 +31,9 @@
     </div>
     <br>
 
+    <h3 class="announcementsHeader">Announcements</h3>
 
     <div class="articleHolder">
-        <h3>Announcements</h3>
         <?php
             $host = "ibcasserver.mysql.database.azure.com";
             $username = "ibcasvismay@ibcasserver";
