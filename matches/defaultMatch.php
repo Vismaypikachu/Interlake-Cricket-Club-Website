@@ -65,7 +65,7 @@
 
 
         <div style = "width: 80%;" class = "matchResults">
-            <?php echo "<img class = \"resultsImage\" src = \"". $resultsURL ."\">"; ?>
+            <?php echo "<img style = \"width: 80%;\"class = \"resultsImage\" src = \"". $resultsURL ."\">"; ?>
         </div>
     </div>  
 
