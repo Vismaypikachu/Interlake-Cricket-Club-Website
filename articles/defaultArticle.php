@@ -27,7 +27,7 @@
 </head>
 <body>
     
-<div class="header">
+    <!-- <div class="header">
         <div class="leftHeader">
             <img height="60px" src="/src/images/ICC LOGO.svg">
             <span class="headerTitle">Interlake Cricket Club</span>
@@ -50,7 +50,7 @@
         <div class = "articleHeader">
             <h3></h3>
         </div>
-    </div>  
+    </div>   -->
 
 </body>
 </html>
