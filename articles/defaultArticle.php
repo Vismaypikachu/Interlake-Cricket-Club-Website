@@ -9,11 +9,11 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        echo $_POST["id"];
+        echo $_POST["articleNumber"];
         $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'];
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-            echo "success " . $_POST['id'];
+            echo "success " . $_POST['articleNumber'];
         }
         else{
             echo "Error, please contact Vismay Patel";
