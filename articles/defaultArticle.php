@@ -9,10 +9,10 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        $sql = "SELECT * FROM article WHERE heading = \"". $_POST['heading'] ."\"";
+        $sql = "SELECT * FROM article WHERE articleNumber = \"". $_POST['id'] ."\"";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-            echo "success " . $_POST['heading'];
+            echo "success " . $_POST['id'];
         }
         else{
             echo "Error, please contact Vismay Patel";

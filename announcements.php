@@ -54,7 +54,7 @@
                                 <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
                                 <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "<br>ID (internal use): ". $row["id"] ."</p>
                                 <form action=\"" . $row['articleLink'] ."\" method=\"post\">
-                                    <button type=\"submit\" value = \"". $row['heading'] ."\">Read this</button>
+                                    <button type=\"submit\" value = \"". $row['id'] ."\">Read this</button>
                                 </form>
                             </div>
                         </div>
