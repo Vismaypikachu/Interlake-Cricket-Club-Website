@@ -15,7 +15,7 @@
 <div class="header">
         <div class="leftHeader">
             <img height="60px" src="/src/images/ICC LOGO.svg">
-            <span class="headerTitle">Interlake Cricket Club | Matches</span>
+            <span class="headerTitle">Interlake Cricket Club</span>
         </div>
         <div class="navLinks">
             <a href="index.html">Home</a>
