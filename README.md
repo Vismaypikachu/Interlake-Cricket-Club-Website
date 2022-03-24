@@ -4,8 +4,9 @@
 
 ### Find my other websites!
 
-- https://techsavvyyouth.org
-- 52.168.78.7
+- http://vismaypatel.com      -My Personal Website
+- https://techsavvyyouth.org  -My 501(C)3 Nonprofit
+- 52.168.78.7                 -IB CAS Project
 
 ### Contact me!
 
