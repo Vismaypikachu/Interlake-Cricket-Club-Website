@@ -13,6 +13,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             $heading = $row['heading'];
+            echo $heading;
             $author = $row['author'];
             $articleDate = $row['articleDate'];
             $imageURL = $row['imageURL'];
@@ -53,7 +54,7 @@
 
 
     <div class="image1">
-        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club </span>Matches</h1>
+        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span></h1>
     </div>
     <br>
 
