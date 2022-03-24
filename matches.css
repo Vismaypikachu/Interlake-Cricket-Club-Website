@@ -98,6 +98,7 @@ html, body {
 
 .matchList{
     width: 80%;
+    margin: 0 auto;
 }
 
 .matchList h3{
