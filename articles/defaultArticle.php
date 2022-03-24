@@ -12,8 +12,8 @@
         $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'];
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-            echo "success";
             $heading = $row['heading'];
+            echo $heading;
             $author = $row['author'];
             $articleDate = $row['articleDate'];
             $imageURL = $row['imageURL'];
@@ -36,6 +36,7 @@
     <title>Interlake Cricket Club | Test Article</title>
     <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg">
 </head>
+
 <body>
     
     <div class="header">
