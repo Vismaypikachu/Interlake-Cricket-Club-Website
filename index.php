@@ -16,7 +16,7 @@
             <span class = "headerTitle">Interlake Cricket Club</span>
         </div>
         <div class="navLinks">
-            <a class = "active" href = "index.html">Home</a>
+            <a class = "active" href = "index.php">Home</a>
             <a href = "announcements.php">Announcements</a>
             <a href="javascript:jumpScroll(1)">Join the Club</a>
             <a href="matches.php">Matches</a>

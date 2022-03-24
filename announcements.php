@@ -18,9 +18,9 @@
             <span class="headerTitle">Interlake Cricket Club</span>
         </div>
         <div class="navLinks">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a class="active" href="announcements.php">Announcements</a>
-            <a href="index.html">Join the Club</a>
+            <a href="index.php">Join the Club</a>
             <a href="matches.php">Matches</a>
         </div>
     </div>
@@ -49,7 +49,7 @@
                 while ($row = $result->fetch_assoc()) {
                     echo "
                         <div class=\"article\">
-                            <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
+                      x      <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
                             <div class=\"articleBody\">
                                 <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
                                 <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "<br>ID (internal use): ". $row["id"] ."</p>

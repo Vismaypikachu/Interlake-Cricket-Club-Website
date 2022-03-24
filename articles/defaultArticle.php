@@ -45,9 +45,9 @@
             <span class="headerTitle">Interlake Cricket Club</span>
         </div>
         <div class="navLinks">
-            <a href="\index.html">Home</a>
+            <a href="\index.php">Home</a>
             <a href="\announcements.php">Announcements</a>
-            <a href="\index.html">Join the Club</a>
+            <a href="\index.php">Join the Club</a>
             <a href="\matches.php">Matches</a>
         </div>
     </div>
