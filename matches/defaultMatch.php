@@ -65,7 +65,7 @@
 
 
         <div style = "width: 80%;" class = "matchResults">
-            <?php echo "<iframe style = \"width: 60%;\"class = \"resultsPDF\" src = \"". $resultsURL ."\"></iframe>"; ?>
+            <?php echo "<iframe style = \"width: 60%;\"class = \"resultsPDF\" src = \"/". $resultsURL ."\"></iframe>"; ?>
         </div>
     </div>  
 
