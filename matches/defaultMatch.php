@@ -59,12 +59,12 @@
     <br>
 
     <div class = "match">
-        <div class = "matchHeader">
+        <div style = "margin: 0 auto" class = "matchHeader">
             <h3><?php echo $heading; ?></h3>
         </div>
 
 
-        <div style = "width: 80%; height: 1200px; margin: 0 auto;" class = "matchResults">
+        <div style = "width: 80%; height: 1150px; margin: 0 auto;" class = "matchResults">
             <?php echo "<iframe style = \"width: 100%; height: 100%\"class = \"resultsPDF\" src = \"/". $resultsURL ."\"></iframe>"; ?>
         </div>
     </div>  
