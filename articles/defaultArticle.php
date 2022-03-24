@@ -13,7 +13,6 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             $heading = $row['heading'];
-            echo $heading;
             $author = $row['author'];
             $articleDate = $row['articleDate'];
             $imageURL = $row['imageURL'];
