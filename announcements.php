@@ -58,7 +58,7 @@
                                 </form>
                             </div>
                         </div>
-                        " .$row['articleLink']. "
+                        " .$row['id']. "
                     ";
                 }
             } 
