@@ -15,7 +15,7 @@
 <div class="header">
         <div class="leftHeader">
             <img height="60px" src="/src/images/ICC LOGO.svg">
-            <span class="headerTitle">Interlake Cricket Club</span>
+            <span class="headerTitle">Interlake Cricket Club | Matches</span>
         </div>
         <div class="navLinks">
             <a href="index.html">Home</a>
@@ -66,7 +66,11 @@
                                 <td class = \"loser\">". $row["homeTeam"] . "</td>
                                 <td class = \"winner\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                                <td> 
+                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                        <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                    </form>
+                                </td>
                             </tr>
                         ";
                     }
@@ -78,7 +82,11 @@
                                 <td class = \"winner\">". $row["homeTeam"] . "</td>
                                 <td class = \"loser\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                                <td> 
+                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                        <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                    </form>
+                                </td>
                             </tr>
                         ";
                     }
@@ -90,7 +98,11 @@
                                 <td class = \"tie\">". $row["homeTeam"] . "</td>
                                 <td class = \"tie\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                                <td> 
+                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                        <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                    </form>
+                                </td>
                             </tr>
                         ";
                     }                    
