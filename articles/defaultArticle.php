@@ -59,7 +59,7 @@
 
     <div class = "article">
         <div class = "articleHeader">
-            <h3><?php echo $heading ?></h3>
+            <h3><?php echo $heading; ?></h3>
         </div>
     </div>  
 
