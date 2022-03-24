@@ -9,7 +9,7 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        echo $_POST["articleNumber"];
+        echo $_POST['articleNumber'];
         $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'];
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
