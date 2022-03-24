@@ -97,6 +97,7 @@ html, body {
 }
 
 .articleHolder{
+    margin: 0 auto;
     width: 80%;
 }
 

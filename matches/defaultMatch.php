@@ -54,7 +54,7 @@
 
 
     <div class="image1">
-        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span></h1>
+        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span> Match Result</h1>
     </div>
     <br>
 
