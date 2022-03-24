@@ -60,41 +60,38 @@
                 while ($row = $result->fetch_assoc()) {
                     if($row["winner"] == "away"){
                         echo "
-                            <a href=\"\matches\match". $row["id"] .".html\">
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"loser\">". $row["homeTeam"] . "</td>
-                                    <td class = \"winner\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                </tr>
-                            </a>
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"loser\">". $row["homeTeam"] . "</td>
+                                <td class = \"winner\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                            </tr>
                         ";
                     }
                     else if($row["winner"] == "home"){
                         echo "
-                            <a href=\"\matches\match". $row["id"] .".html\">
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"winner\">". $row["homeTeam"] . "</td>
-                                    <td class = \"loser\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                </tr>
-                            </a>
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"winner\">". $row["homeTeam"] . "</td>
+                                <td class = \"loser\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                            </tr>
                         ";
                     }
                     else{
                         echo "
-                            <a href=\"\matches\match". $row["id"] .".html\">
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"tie\">". $row["homeTeam"] . "</td>
-                                    <td class = \"tie\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                </tr>
-                            </a>
+                            <tr>
+                                <td class = \"id\">". $row["id"] ."</td>
+                                <td>". $row["matchDate"] ."</td>
+                                <td class = \"tie\">". $row["homeTeam"] . "</td>
+                                <td class = \"tie\">". $row["awayTeam"] ."</td>
+                                <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                <td> <a href=\"\matches\match". $row["id"] .".html\">Match Results</a></td>
+                            </tr>
                         ";
                     }                    
                 }
