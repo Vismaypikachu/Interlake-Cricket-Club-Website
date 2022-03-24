@@ -99,6 +99,9 @@ html, body {
 .articleHolder{
     margin: 0 auto;
     width: 80%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .articleHolder h3{
