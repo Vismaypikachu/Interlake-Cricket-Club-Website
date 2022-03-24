@@ -64,8 +64,8 @@
         </div>
 
 
-        <div style = "width: 80%; height: 500px" class = "matchResults">
-            <?php echo "<iframe style = \"width: 100%;\"class = \"resultsPDF\" src = \"/". $resultsURL ."\"></iframe>"; ?>
+        <div style = "width: 80%; height: 800px" class = "matchResults">
+            <?php echo "<iframe style = \"width: 100%; height: 100%\"class = \"resultsPDF\" src = \"/". $resultsURL ."\"></iframe>"; ?>
         </div>
     </div>  
 
