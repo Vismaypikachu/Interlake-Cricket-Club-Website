@@ -152,6 +152,10 @@ tr:nth-child(even){
     background-color: greenyellow;
 }
 
+.no{
+    background: #cc4444;
+}
+
 .president{
     width: 100%;
     font-family: Avenir;

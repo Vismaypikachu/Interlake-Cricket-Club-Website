@@ -31,35 +31,50 @@
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
         <table class = "schedule">
-            <th>Event List</th>
+            <th>Meeting List</th>
             <th>Are we meeting?</th>
+            <th>When?</th>
             <th>Where?</th>
             <th>Notes</th>
 
-            <tr>
-                <td>Meeting Thursday (3/24)</td>
-                <td class = "yes">Yes!</td>
-                <td>Ivanhoe Playing Field</td>
-                <td><p class = "comments">Meeting changed from Sherwood to Ivanhoe!</p></td>
-            </tr>
-            <tr>
-                <td>Meeting Tuesday (3/29)</td>
-                <td class = "yes">Yes!</td>
-                <td>Ivanhoe Playing Field</td>
-                <td><p class = "comments">No Comments yet</p></td>
-            </tr>
-            <tr>
-                <td>Meeting Thursday (3/31)</td>
-                <td class = "yes">Yes!</td>
-                <td>Sherwood Forest Basketball Court</td>
-                <td><p class = "comments">No Comments yet</p></td>
-            </tr>
-            <tr>
-                <td>Meeting Tuesday (4/05)</td>
-                <td class = "yes">Yes!</td>
-                <td>Ivanhoe Playing Field</td>
-                <td><p class = "comments">No Comments yet</p></td>
-            </tr>
+            <?php
+                $host = "ibcasserver.mysql.database.azure.com";
+                $username = "ibcasvismay@ibcasserver";
+                $password = "jointechsavvyyouth1!";
+                $db_name = "cricket";
+                
+                $conn = mysqli_init();
+                mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+    
+                $sql = "SELECT * FROM days LIMIT 4;";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        if($row['meeting'] == "Yes!"){
+                            echo "
+                                <tr>
+                                    <td>". $row['meetingDate'] ."</td>
+                                    <td class = \"yes\">Yes!</td>
+                                    <td>". $row['meetingTime'] ."</td>
+                                    <td>". $row['meetingLocation'] ."</td>
+                                    <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
+                                </tr>
+                            ";
+                        }
+                        else{
+                            echo "
+                                <tr>
+                                    <td>". $row['meetingDate'] ."</td>
+                                    <td class = \"no\">No!</td>
+                                    <td>". $row['meetingTime'] ."</td>
+                                    <td>". $row['meetingLocation'] ."</td>
+                                    <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
+                                </tr>
+                            ";
+                        }
+                    }
+                }
+            ?>
         </table>
         <br>
     </div>
