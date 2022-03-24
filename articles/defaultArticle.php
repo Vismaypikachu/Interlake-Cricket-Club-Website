@@ -30,8 +30,12 @@
         <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club </span>Matches</h1>
     </div>
     <br>
-    
 
+    <div class = "article">
+        <div class = "articleHeader">
+            <h3></h3>
+        </div>
+    </div>  
 
 </body>
 </html>
