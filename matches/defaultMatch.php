@@ -61,6 +61,9 @@
     <div class = "match">
         <div style = "margin: 0 auto" class = "matchHeader">
             <h3 style = "text-align: center;"><?php echo $heading; ?></h3>
+
+            <h4><?php echo $matchDate;?></h4>
+            <h5>Home Captain <?php echo $captainHome; ?><br>Away Captain <?php echo $captainAway ?></h5>
         </div>
 
 
