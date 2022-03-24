@@ -9,9 +9,10 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-        $sql = "SELECT * FROM announcements";
+        $sql = "SELECT * FROM article WHERE heading = \"". $_POST['heading'] ."\"";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
+            echo "success " . $_POST['heading'];
         }
     ?>
 
