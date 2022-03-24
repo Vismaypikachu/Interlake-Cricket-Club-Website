@@ -14,6 +14,10 @@
         if ($result->num_rows > 0) {
             echo "success " . $_POST['heading'];
         }
+        else{
+            echo "Error, please contact Vismay Patel";
+        }
+        $conn->close();
     ?>
 
 <head>
