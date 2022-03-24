@@ -62,8 +62,10 @@
         <div class = "matchHeader">
             <h3><?php echo $heading; ?></h3>
         </div>
+
+
         <div class = "matchResults">
-            <p><?php echo "<img class = \"resultsImage\" src = \"". $imageURL ."\">"; ?></p>
+            <p><?php echo "<img class = \"resultsImage\" src = \"". $resultsURL ."\">"; ?></p>
         </div>
     </div>  
 
