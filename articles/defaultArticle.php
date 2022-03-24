@@ -10,7 +10,7 @@
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
         echo $_POST["id"];
-        $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST["id"];
+        $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'];
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             echo "success " . $_POST['id'];
