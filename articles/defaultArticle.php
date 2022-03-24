@@ -14,7 +14,6 @@
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $heading = $row['heading'];
-            echo $heading;
             $author = $row['author'];
             $articleDate = $row['articleDate'];
             $imageURL = $row['imageURL'];
@@ -62,6 +61,9 @@
     <div class = "article">
         <div class = "articleHeader">
             <h3><?php echo $heading; ?></h3>
+        </div>
+        <div class = "articleContent">
+            <p><?php echo $content; ?></p>
         </div>
     </div>  
 
