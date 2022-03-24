@@ -30,7 +30,6 @@ html, body {
     justify-content: space-between;
 
     position: fixed;
-    z-index: 999;
 }
 
 .header .navLinks {
@@ -65,6 +64,34 @@ html, body {
     text-align: center;
 }
 
+.image1{
+    height: 721px;
+    width: 100%;
+
+    padding-top: 117px;
+    text-align: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/IMG_6380.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#iccWelcome{
+    font-family: Anton;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+#iccHeading{
+    font-family: Anton;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    font-size: 55px;
+}
 
 footer{
     width: 100%;
@@ -80,4 +107,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#socialImages{
+    width: 100%;
+    color: black;
+
+    font-family: Avenir; 
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 10px;
 }
