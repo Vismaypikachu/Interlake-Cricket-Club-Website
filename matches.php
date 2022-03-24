@@ -67,7 +67,7 @@
                                 <td class = \"winner\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                 <td> 
-                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                    <form action=\"/matches/defaultMatch.php\" method=\"post\">
                                         <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
                                     </form>
                                 </td>
@@ -83,7 +83,7 @@
                                 <td class = \"loser\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                 <td> 
-                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                    <form action=\"/matches/defaultMatch.php\" method=\"post\">
                                         <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
                                     </form>
                                 </td>
@@ -99,7 +99,7 @@
                                 <td class = \"tie\">". $row["awayTeam"] ."</td>
                                 <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                 <td> 
-                                    <form action=\"\\matches\\defaultMatch.php\" method=\"post\">
+                                    <form action=\"/matches/defaultMatch.php\" method=\"post\">
                                         <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
                                     </form>
                                 </td>
