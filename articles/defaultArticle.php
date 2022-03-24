@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+    <?php
+        $host = "ibcasserver.mysql.database.azure.com";
+        $username = "ibcasvismay@ibcasserver";
+        $password = "jointechsavvyyouth1!";
+        $db_name = "cricket";
+        
+        $conn = mysqli_init();
+        mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+
+        $sql = "SELECT * FROM announcements";
+        $result = $conn->query($sql);
+        if ($result->num_rows > 0) {
+        }
+    ?>
 
 <head>
     <meta charset="UTF-8">
