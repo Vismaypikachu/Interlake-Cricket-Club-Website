@@ -12,6 +12,7 @@
         $sql = "SELECT * FROM article WHERE articleNumber = ". $_POST['articleNumber'] .";";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
             $heading = $row['heading'];
             echo $heading;
             $author = $row['author'];
