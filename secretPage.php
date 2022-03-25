@@ -47,9 +47,34 @@
 
 	<a href="logout.php">Destroy</a>
 	
-	<form action = "secretPage.php" method = "post">
-		<input type="submit" value="Submit">
-	</form>
+	<?php
+		$host = "ibcasserver.mysql.database.azure.com";
+		$username = "ibcasvismay@ibcasserver";
+		$password = "jointechsavvyyouth1!";
+		$db_name = "cricket";
+		
+		$conn = mysqli_init();
+		mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+
+		$value = $_POST['delete'];
+		if(!empty($value)){
+			$sql = "DELETE FROM days WHERE id = $value";
+			$conn->query($sql);
+		}
+		else{
+			$sql = "SELECT * FROM days LIMIT 4";
+			$result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+				echo "<form action = \"secretPage.php\" method=\"post\">";
+				while ($row = $result->fetch_assoc()) {
+					echo "
+						<input type=\"submit\" name = \"delete\" value = \"". $row['id'] ."\">					
+					";
+				}
+				echo "</form>";
+			}
+		}
+	?>
 
 </body>
 </html>
