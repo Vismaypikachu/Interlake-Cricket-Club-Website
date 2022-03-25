@@ -45,7 +45,7 @@
 
 <body>
 
-	<a href="logout.php"></a>
+	<a href="logout.php">Destroy</a>
 	
 	<form action = "secretPage.php" method = "post">
 		<input type="submit" value="Submit">
