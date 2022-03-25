@@ -20,6 +20,7 @@
             <a href = "announcements.php">Announcements</a>
             <a href="javascript:jumpScroll(1)">Join the Club</a>
             <a href="matches.php">Matches</a>
+            <a href="IYANVGO.php">IYANVGO!</a>
         </div>
     </div>
     <div class = "image1">
