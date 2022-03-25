@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+    <a href="index.php">Go Back</a>
     <div id="login">
         <form action="login.php" method="POST">
             <input id="name" name="username" placeholder="username" type="text">

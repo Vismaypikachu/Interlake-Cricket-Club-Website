@@ -22,4 +22,3 @@ session_destroy();
 
 echo 'You have been logged out. <a href="index.php">Go back</a>';
 ?>
-© 2022 GitHub, I
