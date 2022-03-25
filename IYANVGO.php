@@ -20,11 +20,11 @@
 <body>
 
     <div id="login">
-        <form action="loginPage.php" method="POST">
+        <form action="login.php" method="POST">
             <input id="name" name="username" placeholder="username" type="text">
             <input id="password" name="password" placeholder="*********" type="password">
             <br><br>
-            <input name="submit" type="submit" value="Login">
+            <input name="submit" type="submit" value="secret... shhh">
             <span><?php echo $error; ?></span>
         </form>
     </div>
