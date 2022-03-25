@@ -19,6 +19,7 @@
         </div>
         <div class="navLinks">
             <a href="index.php">Home</a>
+            <a href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
             <a class="active" href="announcements.php">Announcements</a>
             <a href="https://bit.ly/ihscricket">Join the Club</a>
             <a href="matches.php">Matches</a>

@@ -17,6 +17,7 @@
         </div>
         <div class="navLinks">
             <a class = "active" href = "index.php">Home</a>
+            <a href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
             <a href = "announcements.php">Announcements</a>
             <a href="javascript:jumpScroll(1)">Join the Club</a>
             <a href="matches.php">Matches</a>
