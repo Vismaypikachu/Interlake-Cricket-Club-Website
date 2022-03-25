@@ -45,7 +45,7 @@
 
 <body>
 	
-	<form action = "IYANVGO.php" method = "POST">
+	<form action = "secretPage.php" method = "post">
 		<input type="submit" value="Submit">
 	</form>
 
