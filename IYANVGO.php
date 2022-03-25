@@ -21,8 +21,8 @@
     <a href="index.php">Go Back</a>
     <div id="login">
         <form action="login.php" method="POST">
-            <input id="name" name="username" placeholder="username" type="text">
-            <input id="password" name="password" placeholder="*********" type="password">
+            <input id="name" name="username" placeholder="hmmmmm" type="text">
+            <input id="password" name="password" placeholder="hmmmmm" type="password">
             <br><br>
             <input name="submit" type="submit" value="secret... shhh">
             <span><?php echo $error; ?></span>
