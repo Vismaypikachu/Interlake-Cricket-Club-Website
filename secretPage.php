@@ -44,6 +44,8 @@
 </head>
 
 <body>
+
+	<a href="logout.php"></a>
 	
 	<form action = "secretPage.php" method = "post">
 		<input type="submit" value="Submit">
