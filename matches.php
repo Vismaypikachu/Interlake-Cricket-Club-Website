@@ -117,6 +117,9 @@
         ?>
 
     </div>
-
+    <br><br>
+    <footer>
+        <h3 style = "font-size: 16px;">Created and Coded by <a style = "color: white; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a> © 2022</h3>
+    </footer>
 </body>
 </html>

@@ -72,6 +72,9 @@
             <?php echo "<iframe style = \"width: 75%; height: 100%\"class = \"resultsPDF\" src = \"/". $resultsURL ."#toolbar=0&navpanes=0&scrollbar=0\"></iframe>"; ?>
         </div>
     </div>  
-
+    <br><br>
+    <footer>
+        <h3 style = "font-size: 16px;">Created and Coded by <a style = "color: white; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a> © 2022</h3>
+    </footer>
 </body>
 </html>
