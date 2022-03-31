@@ -50,7 +50,7 @@
                 while ($row = $result->fetch_assoc()) {
                     echo "
                         <div class=\"article\">
-                      x      <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
+                            <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
                             <div class=\"articleBody\">
                                 <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
                                 <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "<br>ID (internal use): ". $row["id"] ."</p>
