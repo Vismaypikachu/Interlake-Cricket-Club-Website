@@ -33,7 +33,7 @@
     <br>
 
 
-    <div class="matchList">
+    <div style = "margin: 0 auto; text-align: center;" class="matchList">
         <h3>Matches</h3>
         <h5>Green = Winner, Red = Loser, Yellow = Tie<br>Click on a Match to view the results!</h5>
 
