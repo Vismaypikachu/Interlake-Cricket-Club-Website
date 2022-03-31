@@ -71,19 +71,12 @@
     </div>
 
 
-    <br><br>
+    <br><br><br><br><br>
     <footer>
         <h3 style="font-size: 16px;">Created and Coded by <a style="color: white; text-decoration: underline;" href="https://vismaypatel.com">Vismay Patel</a> © 2022</h3>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script>
-        function jumpScroll(x) {
-            if (x == 1) {
-                window.scroll(0, 2175);
-            }
-        }
-    </script>
 </body>
 
 </html>
