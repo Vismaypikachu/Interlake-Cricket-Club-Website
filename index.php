@@ -27,7 +27,7 @@
     <div class = "image1">
         <h2 id = "iccWelcome" class = "red">- <span class = "blue">WELCOME TO THE</span> -</h2>
         <br>
-        <h1 id = "iccHeading" class = "blue">Interlake <span class = "red">Cricket Club</span></h1>
+        <h1 id = "iccHeading" class = "blue">Interlake <span class = "red">Cricket Club!</span></h1>
     </div>
     <br>
     <div class = "schedule">
