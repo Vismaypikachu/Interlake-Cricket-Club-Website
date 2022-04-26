@@ -10,20 +10,42 @@
     <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg">
 </head>
 <body>
-    <div class = "header">
-        <div class = "leftHeader">
-            <img height="60px" src="/src/images/ICC LOGO.svg">
-            <span class = "headerTitle">Interlake Cricket Club</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                Interlake Cricket Club
+                <img height="60px" src="/src/images/ICC LOGO.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:jumpScroll(1)">Announcements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join the Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matches.php">Matches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="IYANVGO.php">IYANVGO!</a>
+                    </li>
+                </ul>
+                <span class="navbar-text"></span>
+            </div>
         </div>
-        <div class="navLinks">
-            <a class = "active" href = "index.php">Home</a>
-            <a href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
-            <a href = "announcements.php">Announcements</a>
-            <a href="javascript:jumpScroll(1)">Join the Club</a>
-            <a href="matches.php">Matches</a>
-            <a href="IYANVGO.php">IYANVGO!</a>
-        </div>
-    </div>
+    </nav>
+    
     <div class = "image1">
         <h2 id = "iccWelcome" class = "red">- <span class = "blue">WELCOME TO THE</span> -</h2>
         <br>
