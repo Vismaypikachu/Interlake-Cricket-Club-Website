@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 Interlake Cricket Club
@@ -45,7 +45,7 @@
             </div>
         </div>
     </nav>
-    
+
     <div class = "image1">
         <h2 id = "iccWelcome" class = "red">- <span class = "blue">WELCOME TO THE</span> -</h2>
         <br>
