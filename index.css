@@ -28,6 +28,7 @@ nav{
     display: flex;
     font-size: 30px;
     align-items: center;
+    vertical-align: middle;
     justify-content: space-between;
 
     position: fixed;
