@@ -19,7 +19,7 @@ html, body {
     box-sizing: border-box;
 }
 
-nav{
+/* nav{
     background-color: #ffffff;
     box-shadow: 0px 5px 10px #00000033;
     padding: 0 5rem;
@@ -40,19 +40,19 @@ nav{
     text-decoration: none;
     font-size: 20px;
     color: #808080;
-}
+} */
 
-.navLinks a:hover{
+a:hover{
     color: red;
 }
 
-.leftHeader{
+/* .leftHeader{
     color: black;
     gap: 10px;
     font-size: 25px;
     display: flex;
     align-items: center;
-}
+} */
 
 .headerTitle{
     text-align: center;
