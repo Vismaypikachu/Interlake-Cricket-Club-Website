@@ -19,7 +19,7 @@ html, body {
     box-sizing: border-box;
 }
 
-.header{
+nav{
     width: 100vw;
     height: 89px;
     background-color: #ffffff;
