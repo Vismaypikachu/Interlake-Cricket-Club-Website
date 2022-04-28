@@ -41,7 +41,7 @@
                         <a class="nav-link" href="https://bit.ly/ihscricket">Join the Club</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/matches.php">Matches</a>
+                        <a class="nav-link" href="/matchesList.php">Matches</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/IYANVGO.php">IYANVGO!</a>
