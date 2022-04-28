@@ -21,7 +21,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto me-5 mb-2 mb-lg-0">
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
