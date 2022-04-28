@@ -54,52 +54,54 @@
     <br>
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
-        <table class = "schedule">
-            <th>Meeting List</th>
-            <th>Are we meeting?</th>
-            <th>When?</th>
-            <th>Where?</th>
-            <th>Notes</th>
+        <div class="table-responsive">
+            <table class = "schedule table">
+                <th>Meeting List</th>
+                <th>Are we meeting?</th>
+                <th>When?</th>
+                <th>Where?</th>
+                <th>Notes</th>
 
-            <?php
-                $host = "ibcasserver.mysql.database.azure.com";
-                $username = "ibcasvismay@ibcasserver";
-                $password = "jointechsavvyyouth1!";
-                $db_name = "cricket";
-                
-                $conn = mysqli_init();
-                mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
-    
-                $sql = "SELECT * FROM days LIMIT 4;";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        if($row['meeting'] == "Yes!"){
-                            echo "
-                                <tr>
-                                    <td>". $row['meetingDate'] ."</td>
-                                    <td class = \"yes\">Yes!</td>
-                                    <td>". $row['meetingTime'] ."</td>
-                                    <td>". $row['meetingLocation'] ."</td>
-                                    <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
-                                </tr>
-                            ";
-                        }
-                        else{
-                            echo "
-                                <tr>
-                                    <td>". $row['meetingDate'] ."</td>
-                                    <td class = \"no\">No!</td>
-                                    <td>". $row['meetingTime'] ."</td>
-                                    <td>". $row['meetingLocation'] ."</td>
-                                    <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
-                                </tr>
-                            ";
+                <?php
+                    $host = "ibcasserver.mysql.database.azure.com";
+                    $username = "ibcasvismay@ibcasserver";
+                    $password = "jointechsavvyyouth1!";
+                    $db_name = "cricket";
+                    
+                    $conn = mysqli_init();
+                    mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+        
+                    $sql = "SELECT * FROM days LIMIT 4;";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            if($row['meeting'] == "Yes!"){
+                                echo "
+                                    <tr>
+                                        <td>". $row['meetingDate'] ."</td>
+                                        <td class = \"yes\">Yes!</td>
+                                        <td>". $row['meetingTime'] ."</td>
+                                        <td>". $row['meetingLocation'] ."</td>
+                                        <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
+                                    </tr>
+                                ";
+                            }
+                            else{
+                                echo "
+                                    <tr>
+                                        <td>". $row['meetingDate'] ."</td>
+                                        <td class = \"no\">No!</td>
+                                        <td>". $row['meetingTime'] ."</td>
+                                        <td>". $row['meetingLocation'] ."</td>
+                                        <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
+                                    </tr>
+                                ";
+                            }
                         }
                     }
-                }
-            ?>
-        </table>
+                ?>
+            </table>
+        </div>
         <br>
     </div>
     <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Leadership</h3>
