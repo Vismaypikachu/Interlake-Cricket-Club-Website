@@ -115,32 +115,32 @@ html, body {
     text-decoration: underline;
 }
 
-.matchList table{
+table{
     border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
     border: 2px solid black;
 }
 
-.matchList th{
+th{
     font-family: Avenir;
     font-size: 30px;
     background-color: #FFCD0F;
     text-align: center;
 }
 
-.matchList td{
+td{
     font-family: Anton;
     font-size: 27px;
     text-align: center;
     vertical-align: middle;
 }
 
-.matchList tr{
+tr{
     border-bottom: 2px solid #000000;
 }
 
-.matchList tr:nth-child(even){
+tr:nth-child(even){
     background-color: #FFE8A2;
 }
 
