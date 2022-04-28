@@ -15,7 +15,7 @@
             <a class="navbar-brand" href="#">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
-            <a class="navbar-brand" href="#" style = "diplay: flex;">
+            <a class="navbar-brand" href="#" style = "display: flex;">
                 <h4 style = "font-size: 25px; font-family: Avenir; vertical-align: middle;">Interlake Cricket Club</h4>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="javascript:jumpScroll(1)">Join the Club</a>
                     </li>
                     <li class="nav-item" style = "vertical-align: middle;">
-                        <a class="nav-link" href="matchesList.php" style = "diplay: flex;">Matches <span class="badge bg-secondary">New</span></a>
+                        <a class="nav-link" href="matchesList.php" style = "display: flex;">Matches <span class="badge bg-secondary">New</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="IYANVGO.php">IYANVGO!</a>
