@@ -20,7 +20,8 @@ html, body {
 }
 
 
-a:hover{
+
+ul:hover{
     color: red;
 }
 
