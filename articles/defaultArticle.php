@@ -57,12 +57,12 @@
     </div>
     <br>
 
-    <div class = "article">
+    <div style = "width: 80%; display: flex; align-items: center; justify-content: center;" class = "article">
         <div class = "articleHeader">
             <h3>IF YOU SEE THIS ARTICLE</h3>
         </div>
         <div class = "articleContent">
-            <p>Something has gone wrong</p>
+            <p>Something has gone wrong... or this is a test article. IDK</p>
         </div>
     </div>  
     <br><br>
