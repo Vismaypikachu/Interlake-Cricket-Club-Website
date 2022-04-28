@@ -14,10 +14,13 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
-            Interlake Cricket Club
+            <a class="navbar-brand" href="index.php">
+                <h4 style = "font-size: 25px;">Interlake Cricket Club</h4>
+            <a>
+                
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
