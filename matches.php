@@ -58,7 +58,7 @@
         <h3>Matches</h3>
         <h5>Green = Winner, Red = Loser, Yellow = Tie<br>Click on a Match to view the results!</h5>
         <div class="table-responsive">
-            <table style = "margin: 0 auto; text-align: center;" class = "table" id="table">
+            <table class = "table" style = "margin: 0 auto; text-align: center;" id="table">
                 <tr>
                     <th style="width: 10%; font-size: 20px">ID (Internal Use)</th>
                     <th>Match Date</th>
