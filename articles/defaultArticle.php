@@ -38,21 +38,42 @@
 </head>
 
 <body>
-    
-    <div class="header">
-        <div class="leftHeader">
-            <img height="60px" src="/src/images/ICC LOGO.svg">
-            <span class="headerTitle">Interlake Cricket Club</span>
-        </div>
-        <div class="navLinks">
-            <a href="/index.php">Home</a>
-            <a href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
-            <a href="/announcements.php">Announcements</a>
-            <a href="/https://bit.ly/ihscricket">Join the Club</a>
-            <a href="/matches.php">Matches</a>
-        </div>
-    </div>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img height="60px" src="/src/images/ICC LOGO.svg"/>
+            </a>
+            Interlake Cricket Club
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/announcements.php">Announcements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bit.ly/ihscricket">Join the Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/matches.php">Matches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/IYANVGO.php">IYANVGO!</a>
+                    </li>
+                </ul>
+                <span class="navbar-text"></span>
+            </div>
+        </div>
+    </nav>
 
     <div class="image1">
         <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span></h1>
