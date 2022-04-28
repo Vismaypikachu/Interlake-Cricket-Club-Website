@@ -56,7 +56,7 @@
     <br>
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
-        <div class="table-responsive">
+        <div class="table-responsive" style="overflow-x:auto">
             <table class = "schedule table">
                 <th>Meeting List</th>
                 <th>Are we meeting?</th>
