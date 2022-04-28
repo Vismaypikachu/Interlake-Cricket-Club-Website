@@ -36,7 +36,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:jumpScroll(1)">Join the Club</a>
                     </li>
-                    <li class="nav-item" style = "display: flex; vertical-align: middle;">
+                    <li class="nav-item" style = "display: inline-block; vertical-align: middle;">
                         <a class="nav-link" href="matchesList.php" style = "display: inline-block; text-align: center; vertical-align: middle;">Matches<span class="badge bg-secondary">New</span></a>
                     </li>
                     <li class="nav-item">
