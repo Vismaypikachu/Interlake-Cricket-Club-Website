@@ -79,7 +79,7 @@
                             <div class=\"articleBody\">
                                 <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
                                 <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "<br>ID (internal use): ". $row["id"] ."</p>
-                                <div style = \"text-align: middle\">
+                                <div style = \"text-align: center\">
                                     <form action=\"" . $row['articleLink'] ."\" method=\"post\">
                                         <button class=\"btn btn-outline-primary\" name = \"articleNumber\" type=\"submit\" value = \"". $row['id'] ."\">Read this</button>
                                     </form>
