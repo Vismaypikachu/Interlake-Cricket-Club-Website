@@ -57,7 +57,7 @@
     </div>
     <br>
 
-    <div style = "width: 80%; text-align: center;" class = "article">
+    <div style = "width: 80%; text-align: center; margin: auto;" class = "article">
         <div class = "articleHeader">
             <h3>IF YOU SEE THIS ARTICLE</h3>
         </div>
