@@ -15,7 +15,7 @@
             <a class="navbar-brand" href="#">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
-            <a class="navbar-brand" href="#" style = "display: flex;">
+            <a class="navbar-brand" href="#">
                 <h4 style = "font-size: 25px; font-family: Avenir; vertical-align: middle;">Interlake Cricket Club</h4>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
