@@ -29,10 +29,10 @@
                         <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:jumpScroll(1)">Announcements</a>
+                        <a class="nav-link" href="announcements.php">Announcements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Join the Club</a>
+                        <a class="nav-link" href="javascript:jumpScroll(1)">Join the Club</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="matches.php">Matches</a>
