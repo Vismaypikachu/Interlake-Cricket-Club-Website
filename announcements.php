@@ -74,7 +74,7 @@
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "
-                        <div class=\"article\" style = \"max-width: 30%;\">
+                        <div class=\"article\" style = \"max-width: 30vw;\">
                             <img src=\"" . $row['imageURL'] . "\" class=\"card-img-top\">
                             <div class=\"articleBody\">
                                 <h5 style = \"font-family: Avenir;\" class=\"articleHeading\">" . $row['heading'] . "</h5>
