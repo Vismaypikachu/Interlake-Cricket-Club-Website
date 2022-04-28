@@ -56,8 +56,8 @@
     <br>
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
-        <div class="table-responsive" style="overflow-x:auto">
-            <table class = "schedule table">
+        <div class="table-responsive">
+            <table class = "schedule table table-hover">
                 <th>Meeting List</th>
                 <th>Are we meeting?</th>
                 <th>When?</th>

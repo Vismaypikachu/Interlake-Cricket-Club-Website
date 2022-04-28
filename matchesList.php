@@ -61,7 +61,7 @@
         <h3>Matches</h3>
         <h5>Green = Winner, Red = Loser, Yellow = Tie<br>Click on a Match to view the results!</h5>
         <div class="table-responsive">
-            <table class = "table" style = "margin: 0 auto; text-align: center;" id="table">
+            <table class = "table table-hover" style = "margin: 0 auto; text-align: center;" id="table">
                 <tr>
                     <th style="width: 10%; font-size: 20px">ID (Internal Use)</th>
                     <th>Match Date</th>
@@ -88,8 +88,8 @@
                                 <tr>
                                     <td class = \"id\">". $row["id"] ."</td>
                                     <td>". $row["matchDate"] ."</td>
-                                    <td class = \"loser\">". $row["homeTeam"] . "</td>
-                                    <td class = \"winner\">". $row["awayTeam"] ."</td>
+                                    <td class = \"danger\">". $row["homeTeam"] . "</td>
+                                    <td class = \"success\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                     <td> 
                                         <form action=\"/matches/defaultMatch.php\" method=\"post\">
@@ -104,8 +104,8 @@
                                 <tr>
                                     <td class = \"id\">". $row["id"] ."</td>
                                     <td>". $row["matchDate"] ."</td>
-                                    <td class = \"winner\">". $row["homeTeam"] . "</td>
-                                    <td class = \"loser\">". $row["awayTeam"] ."</td>
+                                    <td class = \"success\">". $row["homeTeam"] . "</td>
+                                    <td class = \"danger\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                     <td> 
                                         <form action=\"/matches/defaultMatch.php\" method=\"post\">
