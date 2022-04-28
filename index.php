@@ -21,7 +21,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
