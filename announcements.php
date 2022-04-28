@@ -35,7 +35,7 @@
                         <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style = "color: white;" aria-current="page" href="#">Announcements</a>
+                        <a class="nav-link" aria-current="page" style = "color: white;" href="#">Announcements</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://bit.ly/ihscricket">Join the Club</a>
