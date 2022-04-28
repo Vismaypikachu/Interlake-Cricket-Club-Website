@@ -17,7 +17,7 @@
             </a>
             <a class="navbar-brand" href="#">
                 <h4 style = "font-size: 25px; font-family: Avenir;">Interlake Cricket Club</h4>
-            <a>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
