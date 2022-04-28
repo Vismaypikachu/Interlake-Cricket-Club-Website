@@ -81,7 +81,7 @@
                                 <p style = \"font-family: Avenir;\" class=\"articleSummary\">" . $row['summary'] . "<br>ID (internal use): ". $row["id"] ."</p>
                                 <div style = \"text-align: middle\">
                                     <form action=\"" . $row['articleLink'] ."\" method=\"post\">
-                                        <button class=\"btn btn-outline-primary\" style=\"margin: 0 auto\" name = \"articleNumber\" type=\"submit\" value = \"". $row['id'] ."\">Read this</button>
+                                        <button class=\"btn btn-outline-primary\" name = \"articleNumber\" type=\"submit\" value = \"". $row['id'] ."\">Read this</button>
                                     </form>
                                 </div>
                             </div>
