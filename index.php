@@ -23,7 +23,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto" style = "font-size: 16px; font-family: Avenir;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
