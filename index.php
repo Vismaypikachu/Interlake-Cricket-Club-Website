@@ -14,8 +14,8 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
-                <h4 style = "font-size: 25px;">Interlake Cricket Club</h4>
-                </a>
+                <span><h4 style = "font-size: 25px;">Interlake Cricket Club</h4></span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
