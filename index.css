@@ -19,9 +19,7 @@ html, body {
     box-sizing: border-box;
 }
 
-
-
-li:hover{
+.active{
     color: red;
 }
 
