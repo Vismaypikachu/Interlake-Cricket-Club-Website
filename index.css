@@ -19,40 +19,10 @@ html, body {
     box-sizing: border-box;
 }
 
-/* nav{
-    background-color: #ffffff;
-    box-shadow: 0px 5px 10px #00000033;
-    padding: 0 5rem;
-    display: flex;
-    font-size: 2.5em;
-    align-items: center;
-    vertical-align: middle;
-    justify-content: space-between;
-
-    position: fixed;
-}
-
-.navLinks {
-    align-items: flex-end;
-    gap: 10px;
-
-    font-family: Avenir;
-    text-decoration: none;
-    font-size: 20px;
-    color: #808080;
-} */
 
 a:hover{
     color: red;
 }
-
-/* .leftHeader{
-    color: black;
-    gap: 10px;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-} */
 
 .headerTitle{
     text-align: center;
