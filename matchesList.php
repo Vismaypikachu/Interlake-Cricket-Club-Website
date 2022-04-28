@@ -88,8 +88,8 @@
                                 <tr>
                                     <td class = \"id\">". $row["id"] ."</td>
                                     <td>". $row["matchDate"] ."</td>
-                                    <td class = \"danger\">". $row["homeTeam"] . "</td>
-                                    <td class = \"success\">". $row["awayTeam"] ."</td>
+                                    <td class = \"loser\">". $row["homeTeam"] . "</td>
+                                    <td class = \"winner\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                     <td> 
                                         <form action=\"/matches/defaultMatch.php\" method=\"post\">
@@ -104,8 +104,8 @@
                                 <tr>
                                     <td class = \"id\">". $row["id"] ."</td>
                                     <td>". $row["matchDate"] ."</td>
-                                    <td class = \"success\">". $row["homeTeam"] . "</td>
-                                    <td class = \"danger\">". $row["awayTeam"] ."</td>
+                                    <td class = \"winner\">". $row["homeTeam"] . "</td>
+                                    <td class = \"loser\">". $row["awayTeam"] ."</td>
                                     <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
                                     <td> 
                                         <form action=\"/matches/defaultMatch.php\" method=\"post\">
