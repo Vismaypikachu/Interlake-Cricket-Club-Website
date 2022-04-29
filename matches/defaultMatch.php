@@ -11,8 +11,6 @@
         
         $sql = "SELECT * FROM matchResults WHERE matchNumber = ". $_POST['matchNumber'] .";";
         $result = $conn->query($sql);
-        $row = $result->fetch_assoc();
-        echo $row['heading'];
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $heading = $row['heading'];
