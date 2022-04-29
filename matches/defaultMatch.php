@@ -8,7 +8,8 @@
         
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
-
+        
+        echo $_POST['matchNumber'];
         $sql = "SELECT * FROM matchResults WHERE matchNumber = ". $_POST['matchNumber'] .";";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
