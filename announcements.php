@@ -14,20 +14,19 @@
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style = "margin-left: 30px;" >
             <a class="navbar-brand" href="index.php">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
             <a class="navbar-brand" href="index.php">
-                <h4 style = "font-size: 25px; font-family: Avenir;">Interlake Cricket Club</h4>
+                <span style = "font-size: 25px; font-family: Avenir; vertical-align: middle;">Interlake Cricket Club</span>
             </a>
-        
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto nav-pills">
+                <ul class="navbar-nav ms-auto nav-pills" style = "font-size: 16px; font-family: Avenir;">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
@@ -35,13 +34,13 @@
                         <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style = "color: white;" aria-current="page" href="#">Announcements</a>
+                        <a class="nav-link active" style = "color: white;" aria-current="page" href="announcements.php">Announcements</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://bit.ly/ihscricket">Join the Club</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="matchesList.php">Matches</a>
+                        <a class="nav-link" href="matchesList.php" style = "display: flex; text-align: center; vertical-align: middle;">Matches<span class="badge bg-secondary">New</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="IYANVGO.php">IYANVGO!</a>
@@ -102,8 +101,7 @@
     <footer>
         <h3 style="font-size: 16px;">Created and Coded by <a style="color: white; text-decoration: underline;" href="https://vismaypatel.com">Vismay Patel</a> © 2022</h3>
     </footer>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/9fdba4aeb90f4cefa1a765a546621a4c2edc31ab17944f228c859cd1dab8908d.js"></script>
 </body>
-
 </html>
