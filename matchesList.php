@@ -59,7 +59,8 @@
     <div style = "margin: 0 auto; text-align: center;" class="matchList">
         <h3>Matches</h3>
         <h5>Green = Winner, Red = Loser, Yellow = Tie<br>Click on a Match to view the results!</h5>
-        <div class="table">
+
+        <div class="table-responsive">
             <table class = "table table-hover" style = "margin: 0 auto; text-align: center;" id="table">
                 <tr>
                     <th style="width: 10%; font-size: 20px">ID (Internal Use)</th>
@@ -69,77 +70,76 @@
                     <th>Player of the Match</th>
                     <th>View Results</th>
                 </tr>
-            <?php
-                $host = "ibcasserver.mysql.database.azure.com";
-                $username = "ibcasvismay@ibcasserver";
-                $password = "jointechsavvyyouth1!";
-                $db_name = "cricket";
-                
-                $conn = mysqli_init();
-                mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+                <?php
+                    $host = "ibcasserver.mysql.database.azure.com";
+                    $username = "ibcasvismay@ibcasserver";
+                    $password = "jointechsavvyyouth1!";
+                    $db_name = "cricket";
+                    
+                    $conn = mysqli_init();
+                    mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
 
-                $sql = "SELECT * FROM matches order by id desc";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        if($row["winner"] == "away"){
-                            echo "
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"loser\">". $row["homeTeam"] . "</td>
-                                    <td class = \"winner\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                    <td> 
-                                        <form action=\"/matches/defaultMatch.php\" method=\"post\">
-                                            <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            ";
+                    $sql = "SELECT * FROM matches order by id desc;";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            if($row["winner"] == "away"){
+                                echo "
+                                    <tr>
+                                        <td class = \"id\">". $row["id"] ."</td>
+                                        <td>". $row["matchDate"] ."</td>
+                                        <td class = \"loser\">". $row["homeTeam"] . "</td>
+                                        <td class = \"winner\">". $row["awayTeam"] ."</td>
+                                        <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                        <td> 
+                                            <form action=\"/matches/defaultMatch.php\" method=\"post\">
+                                                <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                ";
+                            }
+                            else if($row["winner"] == "home"){
+                                echo "
+                                    <tr>
+                                        <td class = \"id\">". $row["id"] ."</td>
+                                        <td>". $row["matchDate"] ."</td>
+                                        <td class = \"winner\">". $row["homeTeam"] . "</td>
+                                        <td class = \"loser\">". $row["awayTeam"] ."</td>
+                                        <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                        <td> 
+                                            <form action=\"/matches/defaultMatch.php\" method=\"post\">
+                                                <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                ";
+                            }
+                            else{
+                                echo "
+                                    <tr>
+                                        <td class = \"id\">". $row["id"] ."</td>
+                                        <td>". $row["matchDate"] ."</td>
+                                        <td class = \"tie\">". $row["homeTeam"] . "</td>
+                                        <td class = \"tie\">". $row["awayTeam"] ."</td>
+                                        <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
+                                        <td> 
+                                            <form action=\"/matches/defaultMatch.php\" method=\"post\">
+                                                <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                ";
+                            }                    
                         }
-                        else if($row["winner"] == "home"){
-                            echo "
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"winner\">". $row["homeTeam"] . "</td>
-                                    <td class = \"loser\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                    <td> 
-                                        <form action=\"/matches/defaultMatch.php\" method=\"post\">
-                                            <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            ";
-                        }
-                        else{
-                            echo "
-                                <tr>
-                                    <td class = \"id\">". $row["id"] ."</td>
-                                    <td>". $row["matchDate"] ."</td>
-                                    <td class = \"tie\">". $row["homeTeam"] . "</td>
-                                    <td class = \"tie\">". $row["awayTeam"] ."</td>
-                                    <td class = \"playerOfMatch\">". $row["playerOfTheMatch"] ."</td>
-                                    <td> 
-                                        <form action=\"/matches/defaultMatch.php\" method=\"post\">
-                                            <button name = \"matchNumber\" type=\"submit\" value = \"". $row['id'] ."\">Match Results</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            ";
-                        }                    
+                    } 
+                    else {
+                        echo "Error, please contact Vismay Patel";
                     }
-                    echo "</table>
-                </div>";
-            } 
-            else {
-                echo "Error, please contact Vismay Patel";
-            }
-            $conn->close();
-        ?>
-
+                    $conn->close();
+                ?>
+            </table>
+        </div>
     </div>
     <br><br>
     <footer>
