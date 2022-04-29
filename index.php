@@ -11,11 +11,11 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style = "margin-left: 20px;" >
             <a class="navbar-brand" href="#">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
-            <a class="navbar-brand" style = "margin-left: 20px;" href="#">
+            <a class="navbar-brand" href="#">
                 <span style = "font-size: 25px; font-family: Avenir; vertical-align: middle;">Interlake Cricket Club</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
