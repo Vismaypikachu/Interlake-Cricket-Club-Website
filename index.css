@@ -19,10 +19,6 @@ html, body {
     box-sizing: border-box;
 }
 
-.active{
-    color: red;
-}
-
 .headerTitle{
     text-align: center;
 }
