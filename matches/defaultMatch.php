@@ -9,10 +9,10 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
         
-        echo $_POST['matchNumber'];
         $sql = "SELECT * FROM matchResults WHERE matchNumber = ". $_POST['matchNumber'] .";";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
+            echo "HELLO!";
             $row = $result->fetch_assoc();
             $heading = $row['heading'];
             $matchDate = $row['matchDate'];
@@ -22,7 +22,7 @@
             $matchNumber = $row['matchNumber'];
         }
         else{
-            echo "Error, please contact Vismay Patel";
+            echo "NOOOOOOO Error, please contact Vismay Patel";
         }
 
         $conn->close();
