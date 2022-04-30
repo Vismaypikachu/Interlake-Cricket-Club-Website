@@ -45,10 +45,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid" style = "margin-left: 30px;" >
-            <a class="navbar-brand" href="/index.php">
+            <a class="navbar-brand" href="/index">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
             </a>
-            <a class="navbar-brand" href="/index.php">
+            <a class="navbar-brand" href="/index">
                 <span style = "font-size: 25px; font-family: Avenir; vertical-align: middle;">Interlake Cricket Club</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,22 +58,22 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto nav-pills" style = "font-size: 16px; font-family: Avenir;">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.php">Home</a>
+                        <a class="nav-link" href="/index">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://my-store-b94780.creator-spring.com/">Club Merch</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="/announcements.php">Announcements</a>
+                        <a class="nav-link"  href="/announcements">Announcements</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://bit.ly/ihscricket">Join the Club</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style = "color: white;" aria-current="page" href="/matchesList.php" style = "display: flex; text-align: center; vertical-align: middle;">Matches<span class="badge bg-secondary">New</span></a>
+                        <a class="nav-link active" style = "color: white;" aria-current="page" href="/matchesList" style = "display: flex; text-align: center; vertical-align: middle;">Matches<span class="badge bg-secondary">New</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/IYANVGO.php">IYANVGO!</a>
+                        <a class="nav-link" href="/IYANVGO">IYANVGO!</a>
                     </li>
                 </ul>
                 <span class="navbar-text"></span>

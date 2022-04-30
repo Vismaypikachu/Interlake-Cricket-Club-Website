@@ -1,8 +1,8 @@
 <?php
-	include('session.php');
+	include('session');
 
 	if(!isset($_SESSION['login_user'])){
-		header("location: IYANVGO.php");
+		header("location: IYANVGO");
 	}
 	
 	
@@ -45,7 +45,7 @@
 
 <body>
 
-	<a href="logout.php">Destroy</a>
+	<a href="logout">Destroy</a>
 	
 	<?php
 		$host = "ibcasserver.mysql.database.azure.com";
@@ -65,7 +65,7 @@
 			$sql = "SELECT * FROM days LIMIT 4";
 			$result = $conn->query($sql);
 			if ($result->num_rows > 0) {
-				echo "<form action = \"secretPage.php\" method=\"post\">";
+				echo "<form action = \"secretPage\" method=\"post\">";
 				while ($row = $result->fetch_assoc()) {
 					echo "
 						<input type=\"submit\" name = \"delete\" value = \"". $row['id'] ."\">					

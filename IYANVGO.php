@@ -1,8 +1,8 @@
 <?php
-    include('login.php');
+    include('login');
 
 	if(isset($_SESSION['login_user'])){
-        header("location: secretPage.php");
+        header("location: secretPage");
     }
 ?>
 
@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <a href="index.php">Go Back</a>
+    <a href="index">Go Back</a>
     <div id="login">
-        <form action="login.php" method="POST">
+        <form action="login" method="POST">
             <input id="name" name="username" placeholder="hmmmmm" type="text">
             <input id="password" name="password" placeholder="hmmmmm" type="password">
             <br><br>

@@ -31,7 +31,7 @@
             if($stmt->fetch()){
                 session_start();
                 $_SESSION['login_user'] = $username;
-                header("location: secretPage.php");
+                header("location: secretPage");
             }
             else{
                 $error = "invalid username or password";

@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('header'); ?>
 <?php
 // Initialize the session.
 // If you are using session_name("something"), don't forget it now!
@@ -20,5 +20,5 @@ if (ini_get("session.use_cookies")) {
 // Finally, destroy the session.
 session_destroy();
 
-echo 'You have been logged out. <a href="index.php">Go back</a>';
+echo 'You have been logged out. <a href="index">Go back</a>';
 ?>
