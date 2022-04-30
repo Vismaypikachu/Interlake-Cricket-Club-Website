@@ -8,9 +8,15 @@
         
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
+        if ($mysqli->connect_error) {
+            /* Use your preferred error logging method here */
+            error_log('Connection error: ' . $conn->connect_error);
+        }
+
         
         $sql = "SELECT * FROM matchResults WHERE matchNumber = ". $_POST['matchNumber'] .";";
         $result = $conn->query($sql);
+        
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $heading = $row['heading'];
