@@ -8,9 +8,8 @@
         
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
-        if (!$conn) {
-            /* Use your preferred error logging method here */
-            error_log('Connection error: ' . mysqli_connect_error());
+        if ($conn) {
+            error_log('Success: ' . $_POST['matchNumber']);
         }
 
         
