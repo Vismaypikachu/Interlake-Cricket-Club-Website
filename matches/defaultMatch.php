@@ -9,7 +9,7 @@
         $conn = mysqli_init();
         mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306);
         
-        $sql = "SELECT * FROM matchresults WHERE matchNumber = ". $_POST['matchNumber'] .";";
+        $sql = "SELECT * FROM matchResults WHERE matchNumber = ". $_POST['matchNumber'] .";";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid" style = "margin-left: 30px;" >
             <a class="navbar-brand" href="/index.php">
                 <img height="60px" src="/src/images/ICC LOGO.svg"/>
@@ -74,7 +74,7 @@
                 <span class="navbar-text"></span>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
 
     <div class="image1">
