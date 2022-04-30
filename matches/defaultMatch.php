@@ -97,7 +97,7 @@
 
 
         <div style = "width: 55%; height: 1020px; margin: 0 auto; text-align: center;" class = "matchResults">
-            <?php echo "<iframe style = \"width: 75%; height: 100%\"class = \"resultsPDF\" src = \"". $resultsURL ."#toolbar=0&navpanes=0&scrollbar=0\"></iframe>"; ?>
+            <?php echo "<iframe style = \"width: 75%; height: 100%\"class = \"resultsPDF\" src = \"/". $resultsURL ."#toolbar=0&navpanes=0&scrollbar=0\"></iframe>"; ?>
         </div>
     </div>  
     <br><br>
