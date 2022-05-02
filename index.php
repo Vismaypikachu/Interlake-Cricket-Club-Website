@@ -56,7 +56,7 @@
     <br>
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
-        <div class="table-responsive">
+        <div class="table-responsive" s>
             <table class = "schedule table table-hover">
                 <th scope="col">Meeting List</th>
                 <th scope="col">Are we meeting?</th>
