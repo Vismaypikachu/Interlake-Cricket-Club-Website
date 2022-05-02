@@ -56,7 +56,11 @@
     <br>
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
-        <div class="table-responsive" s>
+        <div class = "mobileShow" style="display: flex; flex-direction: column; justify-content: center;">
+            <h4>You can scroll to the right of the table</h4>
+        </div>
+
+        <div class="table-responsive">
             <table class = "schedule table table-hover">
                 <th scope="col">Meeting List</th>
                 <th scope="col">Are we meeting?</th>
