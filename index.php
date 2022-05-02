@@ -58,11 +58,11 @@
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
         <div class="table-responsive">
             <table class = "schedule table table-hover">
-                <th>Meeting List</th>
-                <th>Are we meeting?</th>
-                <th>When?</th>
-                <th>Where?</th>
-                <th>Notes</th>
+                <th scope="col">Meeting List</th>
+                <th scope="col">Are we meeting?</th>
+                <th scope="col">When?</th>
+                <th scope="col">Where?</th>
+                <th scope="col">Notes</th>
 
                 <?php
                     $host = "ibcasserver.mysql.database.azure.com";
@@ -79,8 +79,8 @@
                         while ($row = $result->fetch_assoc()) {
                             if($row['meeting'] == "Yes!"){
                                 echo "
-                                    <tr>
-                                        <td>". $row['meetingDate'] ."</td>
+                                    <tr> 
+                                        <td scope="row">". $row['meetingDate'] ."</td>
                                         <td class = \"yes\">Yes!</td>
                                         <td>". $row['meetingTime'] ."</td>
                                         <td>". $row['meetingLocation'] ."</td>
