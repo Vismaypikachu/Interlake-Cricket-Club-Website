@@ -80,7 +80,7 @@
                             if($row['meeting'] == "Yes!"){
                                 echo "
                                     <tr> 
-                                        <td scope="row">". $row['meetingDate'] ."</td>
+                                        <td scope=\"row\">". $row['meetingDate'] ."</td>
                                         <td class = \"yes\">Yes!</td>
                                         <td>". $row['meetingTime'] ."</td>
                                         <td>". $row['meetingLocation'] ."</td>
@@ -91,7 +91,7 @@
                             else{
                                 echo "
                                     <tr>
-                                        <td>". $row['meetingDate'] ."</td>
+                                        <td scope=\"row\">". $row['meetingDate'] ."</td>
                                         <td class = \"no\">No!</td>
                                         <td>". $row['meetingTime'] ."</td>
                                         <td>". $row['meetingLocation'] ."</td>
