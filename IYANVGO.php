@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <a href="index">Go Back</a>
+    <a href="/">Go Back</a>
     <div id="login">
         <form action="login" method="POST">
             <input id="name" name="username" placeholder="hmmmmm" type="text">
