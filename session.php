@@ -1,6 +1,6 @@
 <?php
 
-$host = "ibcasserver.mysql.database.azure.com";
+    $host = "ibcasserver.mysql.database.azure.com";
     $username = "ibcasvismay@ibcasserver";
     $password = "jointechsavvyyouth1!";
     $db_name = "login";
