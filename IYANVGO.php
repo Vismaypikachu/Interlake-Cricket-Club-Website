@@ -1,5 +1,5 @@
 <?php
-    include('login');
+    include('login.php');
 
 	if(isset($_SESSION['login_user'])){
         header("location: secretPage");
