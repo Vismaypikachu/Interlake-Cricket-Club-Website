@@ -3,7 +3,6 @@
     $error='';
 
     if(isset($_POST['submit'])){
-        echo "<script>console.log('This is a log message');</script>";
         if(empty($_POST['username']) || empty($_POST['password'])){
             $error = "Please enter all the required fields.";
         }
