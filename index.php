@@ -162,6 +162,8 @@
             </div>
         </div>
 
+        <hr class="featurette-divider">
+
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Director of Media <span class="text-muted">Aniketh Bondada</span></h2>
@@ -172,7 +174,7 @@
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
-                <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
+                <img width = "150px" height = "200px" src = "/src/images/aniketh.png"/>
             </div>
         </div>
 
