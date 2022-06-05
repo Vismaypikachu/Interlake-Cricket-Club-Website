@@ -162,13 +162,6 @@ tr:nth-child(even){
     gap: 10px;
 }
 
-.yes td{
-    background-color: greenyellow;
-}
-
-.no td{
-    background: #cc4444;
-}
 
 footer{
     width: 100%;

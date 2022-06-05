@@ -86,7 +86,7 @@
                                 echo "
                                     <tr> 
                                         <td scope=\"row\">". $row['meetingDate'] ."</td>
-                                        <td class = \"yes\">Yes!</td>
+                                        <td style = \"background-color: greenyellow;\">Yes!</td>
                                         <td>". $row['meetingTime'] ."</td>
                                         <td>". $row['meetingLocation'] ."</td>
                                         <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
@@ -97,7 +97,7 @@
                                 echo "
                                     <tr>
                                         <td scope=\"row\">". $row['meetingDate'] ."</td>
-                                        <td class = \"no\">No!</td>
+                                        <td style = \"background-color: #cc4444;\">No!</td>
                                         <td>". $row['meetingTime'] ."</td>
                                         <td>". $row['meetingLocation'] ."</td>
                                         <td><p class = \"comments\">". $row['meetingNotes'] ."</p></td>
