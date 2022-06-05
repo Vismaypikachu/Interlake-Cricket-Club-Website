@@ -62,11 +62,11 @@
 
         <div class="container-md border">
             <div class="row">
-                <div class="col col-lg-3 col-md-3">Meeting List</div>
-                <div class="col col-lg-1 col-md-1">Are We Meeting?</div>
-                <div class="col col-lg-2 col-md-2">When?</div>
-                <div class="col col-lg-3 col-md-3">Where?</div>
-                <div class="col col-lg-3 col-md-3">Notes</div>
+                <div class="border col col-lg-3 col-md-3">Meeting List</div>
+                <div class="border col col-lg-1 col-md-1">Are We Meeting?</div>
+                <div class="border col col-lg-2 col-md-2">When?</div>
+                <div class="border col col-lg-3 col-md-3">Where?</div>
+                <div class="border col col-lg-3 col-md-3">Notes</div>
             </div>
             <!-- <div class="row">
                 <div class="col">Testing</div>
