@@ -55,7 +55,7 @@
     </div>
     <br>
     
-    <div class = "schedule">
+    <div class = "schedule mx-auto">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
         <div class = "mobileShow">
             <h4 style="text-align: center;">You can scroll to the right of the table</h4>
