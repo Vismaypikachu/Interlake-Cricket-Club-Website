@@ -139,7 +139,7 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
+                <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
                 <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content.</p>
             </div>
             <div class="col-md-5">
