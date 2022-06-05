@@ -129,8 +129,8 @@
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Vice President <span class="text-muted">Akshar Adurty</span></h2>
                 <p class="lead">Akshar Adurty is a Junior enrolled in the Running Start Program at Interlake High School and
-                    Bellevue College, in Bellevue, Washington. He is the Vice President of the Interlake Cricket Club. He hates
-                    frogs with a passion.
+                    Bellevue College, in Bellevue, Washington. He hates frogs with a passion. Akshar is the Vice President 
+                    of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
@@ -145,11 +145,9 @@
                 <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
                 <p class="lead">
                     Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
-                    Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Using the knowledge he 
-                    has attained over the years, he has built many computers. Vismay has participated in many 
-                    coding challenges at school, as well as coding clubs. His hobbies are programming, aviation, and gaming.  
-                    Using his coding skills, he has made many different projects, like auto searchers and Java games. He is 
-                    the creator of this website!
+                    Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Vismay's hobbies 
+                    are programming, aviation, and gaming. He is also the creator of this website! Vismay is the Secretary 
+                    and Treasurer of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
