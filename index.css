@@ -127,9 +127,7 @@ tr:nth-child(even){
     width: 100%;
     font-family: Avenir;
 
-    border-top: 2px solid black;
     background-color: white;
-    padding-left: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;

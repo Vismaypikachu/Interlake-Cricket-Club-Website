@@ -132,7 +132,7 @@
         <br>
     </div>
 
-    <div class = "joinUs">
+    <div class = "border-3 border-top border-bottom py-3 my-5 joinUs">
         <br>
         <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Join the Club!</h3>
         <p class="joinP">So you want to join us eh? Don't worry, Interlake Cricket Club is a COED Club for all ages and experience level. 
