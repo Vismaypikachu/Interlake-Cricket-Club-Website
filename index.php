@@ -153,12 +153,26 @@
                     Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Vismay's hobbies 
                     are programming, rocketry, aviation, and gaming. Check out his website <a href="https://vismaypatel.com">
-                    here</a>, he is also the creator of this website! Vismay's favorite flavor of Ice Cream is Chocolate Chip 
+                    here</a>, as he is also the creator of this website! Vismay's favorite flavor of Ice Cream is Chocolate Chip 
                     mixed with Cookies & Cream. Vismay is the Secretary and Treasurer of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/Vismay.jpg"/>
+            </div>
+        </div>
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Director of Media <span class="text-muted">Aniketh Bondada</span></h2>
+                <p class="lead">
+                    Aniketh Bondada is a Sophmore enrolled at Interlake High School in Bellevue, Washington. 
+                    He is ranked as TOP 10 in the Under 18 category of US cricket players. Aniketh is one of the
+                    Directors of Media of the Interlake Cricket Club.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
+                <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
             </div>
         </div>
 
