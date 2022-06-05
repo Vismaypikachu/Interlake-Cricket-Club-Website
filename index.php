@@ -112,7 +112,7 @@
         <br>
     </div>
 
-    <div class = "officers">
+    <div class = "border-top border-bottom py-3 my-5 officers">
         <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Leadership</h3>
         <br>
         <img style = "height: 150px;" src = "/src/images/manthan.png"/>
