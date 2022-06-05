@@ -118,7 +118,7 @@
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting text here.</p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
             </div>
         </div>
@@ -133,7 +133,7 @@
                     frogs with a passion.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     the creator of this website!
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/Vismay.jpg"/>
             </div>
         </div>
