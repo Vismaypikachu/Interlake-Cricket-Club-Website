@@ -169,7 +169,7 @@
                 <h2 class="featurette-heading">Director of Media <span class="text-muted">Aniketh Bondada</span></h2>
                 <p class="lead">
                     Aniketh Bondada is a Sophmore enrolled at Interlake High School in Bellevue, Washington. 
-                    He is ranked as TOP 10 in the Under 18 category of US cricket players. Aniketh is one of the
+                    He is ranked as TOP 10 in the Under 19 category of US cricket players. Aniketh is one of the
                     Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
