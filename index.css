@@ -84,7 +84,7 @@ html, body {
 
 .schedule{
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .schedule th{
