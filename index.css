@@ -162,11 +162,11 @@ tr:nth-child(even){
     gap: 10px;
 }
 
-.yes{
+.yes td{
     background-color: greenyellow;
 }
 
-.no{
+.no td{
     background: #cc4444;
 }
 

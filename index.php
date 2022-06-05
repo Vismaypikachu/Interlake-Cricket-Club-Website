@@ -61,8 +61,8 @@
             <h4 style="text-align: center;">You can scroll to the right of the table</h4>
         </div>
 
-        <div class="table-responsive">
-            <table class = "schedule table-hover">
+        <div>
+            <table class = "table schedule table-hover">
                 <th scope="col">Meeting List</th>
                 <th scope="col">Are we meeting?</th>
                 <th scope="col">When?</th>
