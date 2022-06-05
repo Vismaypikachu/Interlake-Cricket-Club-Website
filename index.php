@@ -116,7 +116,12 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting text here.</p>
+                <p class="lead">
+                    Manthan Jain is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
+                    Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Manthan's hobbies
+                    include cricket... and we don't know what else. Manthan Jain is the President of the Interlake
+                    Cricket Club.
+                </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
@@ -128,7 +133,8 @@
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Vice President <span class="text-muted">Akshar Adurty</span></h2>
-                <p class="lead">Akshar Adurty is a Junior enrolled in the Running Start Program at Interlake High School and
+                <p class="lead">
+                    Akshar Adurty is a Junior enrolled in the Running Start Program at Interlake High School and
                     Bellevue College, in Bellevue, Washington. He hates frogs with a passion. Akshar is the Vice President 
                     of the Interlake Cricket Club.
                 </p>
@@ -147,7 +153,7 @@
                     Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Vismay's hobbies 
                     are programming, rocketry, aviation, and gaming. Check out his website <a href="https://vismaypatel.com">
-                    here</a>. He is also the creator of this website! Vismay is the Secretary and Treasurer of the Interlake 
+                    here</a>, he is also the creator of this website! Vismay is the Secretary and Treasurer of the Interlake 
                     Cricket Club.
                 </p>
             </div>
