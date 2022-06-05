@@ -143,7 +143,7 @@
 
     <br>
 
-    <div class = "border-3 border-top social">
+    <div class = "border-3 border-top py-3 my-5 social">
         <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Socials</h3>
         <br>
         <div id = "socialImages">
