@@ -112,7 +112,7 @@
         <br>
     </div>
 
-    <div class = "border-3 border-top border-bottom py-3 my-5 officers">      
+    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">Place something here</span></h2>
