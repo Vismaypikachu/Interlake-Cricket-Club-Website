@@ -62,7 +62,7 @@
         </div>
 
         <div class = "table-responsive">
-            <table class = "table schedule table-hover">
+            <table class = "table schedule table-hover mx-auto">
                 <th scope="col">Meeting List</th>
                 <th scope="col">Are we meeting?</th>
                 <th scope="col">When?</th>
