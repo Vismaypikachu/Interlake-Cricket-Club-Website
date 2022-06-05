@@ -143,7 +143,7 @@
                 <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content.</p>
             </div>
             <div class="col-md-5">
-                <img width = "150px" height = "200px" src = "/src/images/Vismay.png"/>
+                <img width = "150px" height = "200px" src = "/src/images/Vismay.jpg"/>
             </div>
         </div>
 
