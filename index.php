@@ -115,7 +115,7 @@
     <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">Place something here</span></h2>
+                <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting text here.</p>
             </div>
             <div class="col-md-5">
