@@ -111,13 +111,12 @@
         </div>
         <br>
     </div>
-    <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Leadership</h3>
-    <div class = "president">
+
+    <div class = "officers">
+        <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Leadership</h3>
         <br>
         <img style = "height: 150px;" src = "/src/images/manthan.png"/>
         <h5>President Manthan Jain</h5>
-    </div>
-    <div class = "officers">
         <br>
         <img style = "height: 150px;" src = "/src/images/frog.jpg"/>
         <h5>Vice President Akshar Adurty</h5>
@@ -131,7 +130,8 @@
         <img style = "height: 150px;" src = "/src/images/krish.png"/>
         <h5>Director of Media Krish Wasson</h5>
         <br>
-    </div>
+    <div>
+
     <div class = "joinUs">
         <br>
         <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Join the Club!</h3>
