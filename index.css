@@ -116,14 +116,6 @@ tr:nth-child(even){
     margin-bottom: 0;
 }
 
-.yes{
-    background-color: greenyellow;
-}
-
-.no{
-    background: #cc4444;
-}
-
 .president{
     width: 100%;
     font-family: Avenir;
@@ -168,6 +160,14 @@ tr:nth-child(even){
     flex-direction: row;
 
     gap: 10px;
+}
+
+.yes{
+    background-color: greenyellow;
+}
+
+.no{
+    background: #cc4444;
 }
 
 footer{
