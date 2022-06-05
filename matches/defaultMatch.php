@@ -38,7 +38,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="defaultMatch.css" type="text/css">
-    <title>Interlake Cricket Club | Match Result</title>
+    <title>Interlake Cricket Club | Match <?php echo $matchNumber;?> Result</title>
     <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg" >
 </head>
 
@@ -83,7 +83,7 @@
 
 
     <div class="image1">
-        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span> Match Result</h1>
+        <h1 id="iccHeading" class="blue">Interlake <span class="red">Cricket Club</span> Match <?php echo $matchNumber;?> Result</h1>
     </div>
     <br>
 
