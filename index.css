@@ -75,7 +75,7 @@ html, body {
     }
   }
 
-table{
+.table{
     border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
