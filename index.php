@@ -153,8 +153,8 @@
                     Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Vismay's hobbies 
                     are programming, rocketry, aviation, and gaming. Check out his website <a href="https://vismaypatel.com">
-                    here</a>, he is also the creator of this website! Vismay is the Secretary and Treasurer of the Interlake 
-                    Cricket Club.
+                    here</a>, he is also the creator of this website! Vismay's favorite flavor of Ice Cream is Chocolate Chip 
+                    mixed with Cookies & Cream. Vismay is the Secretary and Treasurer of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
