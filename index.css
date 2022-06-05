@@ -75,7 +75,7 @@ html, body {
     }
   }
 
-/* table{
+table{
     border-collapse: collapse;
     background-color: #FFCD0F;
     padding: 10px;
@@ -83,7 +83,7 @@ html, body {
 }
 
 .schedule{
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -114,13 +114,6 @@ tr:nth-child(even){
     font-size: 16px;
     color: black;
     margin-bottom: 0;
-} */
-
-.col{
-    padding: 1rem;
-    background-color: #FFCD0F;
-    border: 2px solid black;
-    color: black;
 }
 
 .yes{
