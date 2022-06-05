@@ -131,7 +131,7 @@
                 <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
+                <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
             </div>
         </div>
 
@@ -143,7 +143,7 @@
                 <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content.</p>
             </div>
             <div class="col-md-5">
-                <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
+                <img width = "150px" height = "200px" src = "/src/images/Vismay.png"/>
             </div>
         </div>
 
