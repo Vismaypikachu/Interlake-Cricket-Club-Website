@@ -128,7 +128,10 @@
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Vice President <span class="text-muted">Akshar Adurty</span></h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                <p class="lead">Akshar Adurty is a Junior enrolled in the Running Start Program at Interlake High School and
+                    Bellevue College, in Bellevue, Washington. He is the Vice President of the Interlake Cricket Club. He hates
+                    frogs with a passion.
+                </p>
             </div>
             <div class="col-md-5 order-md-1">
                 <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
@@ -140,7 +143,14 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content.</p>
+                <p class="lead">
+                    Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
+                    Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Using the knowledge he 
+                    has attained over the years, he has built many computers. Vismay has participated in many 
+                    coding challenges at school, as well as coding clubs. His hobbies are programming, aviation, and gaming.  
+                    Using his coding skills, he has made many different projects, like auto searchers and Java games. He is 
+                    the creator of this website!
+                </p>
             </div>
             <div class="col-md-5">
                 <img width = "150px" height = "200px" src = "/src/images/Vismay.jpg"/>
