@@ -58,7 +58,7 @@
     <div class = "schedule">
         <h2 id = "eventHeader"><span class = "red">- </span>Upcoming Events<span class = "red"> -</span></h2>
         <div class = "mobileShow">
-            <h4>You can scroll to the right of the table</h4>
+            <h4 style="text-align: center;">You can scroll to the right of the table</h4>
         </div>
 
         <div class="table-responsive">
