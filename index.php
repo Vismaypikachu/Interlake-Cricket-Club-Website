@@ -130,7 +130,7 @@
         <img style = "height: 150px;" src = "/src/images/krish.png"/>
         <h5>Director of Media Krish Wasson</h5>
         <br>
-    <div>
+    </div>
 
     <div class = "joinUs">
         <br>
