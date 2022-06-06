@@ -112,9 +112,9 @@
         <br>
     </div>
 
-    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto" style="display: flex; justify-content: center; align-items: center;">      
+    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
         <div class="row featurette">
-            <div class="col-md-7">
+            <div class="col-md-7" style="display: flex; justify-content: center; align-items: center;">
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
                 <p class="lead">
                     Manthan Jain is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
@@ -123,7 +123,7 @@
                     Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
                 <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
             </div>
         </div>
