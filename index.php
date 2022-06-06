@@ -114,9 +114,9 @@
 
     <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
         <div class="row featurette">
-            <div class="col-md-7" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-7" >
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
-                <p class="lead">
+                <p class="lead" style="display: flex; justify-content: center; align-items: center;">
                     Manthan Jain is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Manthan's hobbies
                     include cricket... and we don't know what else. Manthan Jain is the President of the Interlake
