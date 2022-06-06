@@ -121,8 +121,9 @@
                 <p class="lead">
                     Manthan Jain is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Manthan's hobbies
-                    include cricket... and we don't know what else. Manthan Jain is the President of the Interlake
-                    Cricket Club.
+                    include cricket... and we don't know what else (He claims puzzles and chess, but we have never seen
+                    that before to be honest). His favorite flavor of ice cream is Chocolate Fudge. Manthan Jain is the 
+                    President of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
