@@ -201,7 +201,8 @@
 
     <div class = "border-3 py-3 my-5 joinUs">
         <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Join the Club!</h3>
-        <p class="joinP">So you want to join us eh? Don't worry, Interlake Cricket Club is a COED Club for all ages and experience level. 
+        <p class="joinP">
+            So you want to join us eh? Don't worry, Interlake Cricket Club is a COED Club for all ages and experience level. 
             Many of our members have never played cricket before! We teach YOU how to play cricket and improve your skills!
             Fill out the <a href = "https://bit.ly/ihscricket">sign up form</a> below to get started!
         </p>
