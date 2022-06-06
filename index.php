@@ -22,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarText">
+            < class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto nav-pills" style = "font-size: 16px; font-family: Avenir;">
                     <li class="nav-item">
                         <a class="nav-link active" style = "color: white;" aria-current="page" href="#">Home</a>
