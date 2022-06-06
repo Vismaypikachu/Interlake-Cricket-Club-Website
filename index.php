@@ -112,7 +112,7 @@
         <br>
     </div>
 
-    <!-- <div width = "90%" style = "margin: 0 auto;">
+    <div width = "90%" style = "margin: 0 auto;">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -135,7 +135,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div> -->
+    </div>
 
     <div class = "border-3 border-top border-bottom py-3 my-5 mx-auto officers" width = "90%">   
         <h1>The Officers</h1>   
