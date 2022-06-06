@@ -182,14 +182,14 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
+                <h2 class="featurette-heading">Director of Media <span class="text-muted">Krish Wasson</span></h2>
                 <p class="lead">
                     Krish Wasson is a Sophomore enrolled at Interlake High School, in Bellevue, Washington. Krish 
                     is one of the Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
-                <img width = "160px" height = "200px" src = "/src/images/Vismay.jpg"/>
+                <img width = "160px" height = "200px" src = "/src/images/krish.png"/>
             </div>
         </div>
     </div>
