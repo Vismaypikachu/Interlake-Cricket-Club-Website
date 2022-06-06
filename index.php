@@ -158,7 +158,7 @@
                 </p>
             </div>
             <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
-                <img width = "150px" height = "200px" src = "/src/images/Vismay.jpg"/>
+                <img width = "160px" height = "200px" src = "/src/images/Vismay.jpg"/>
             </div>
         </div>
 
@@ -174,31 +174,24 @@
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
-                <img width = "150px" height = "200px" src = "/src/images/aniketh.png"/>
+                <img width = "161px" height = "200px" src = "/src/images/aniketh.png"/>
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <!-- /END THE FEATURETTES -->
-
-        <!-- <h3 style="text-align: center; font-family: Avenir; font-size: 45px; text-decoration: underline;">Club Leadership</h3>
-        <br>
-        <img style = "height: 150px;" src = "/src/images/manthan.png"/>
-        <h5>President Manthan Jain</h5>
-        <br>
-        <img style = "height: 150px;" src = "/src/images/frog.jpg"/>
-        <h5>Vice President Akshar Adurty</h5>
-        <br>
-        <img style = "height: 150px;" src = "/src/images/Vismay.jpg"/>
-        <h5>Secretary/Treasurer Vismay Patel</h5>
-        <br>
-        <img style = "height: 150px;" src = "/src/images/aniketh.png"/>
-        <h5>Director of Media Aniketh Bondada</h5>
-        <br>
-        <img style = "height: 150px;" src = "/src/images/krish.png"/>
-        <h5>Director of Media Krish Wasson</h5>
-        <br> -->
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Secretary/Treasurer <span class="text-muted"><a style = "all: unset; text-decoration: underline;" href = "https://vismaypatel.com">Vismay Patel</a></span></h2>
+                <p class="lead">
+                    Krish Wasson is a Sophomore enrolled at Interlake High School, in Bellevue, Washington. Krish 
+                    is one of the Directors of Media of the Interlake Cricket Club.
+                </p>
+            </div>
+            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
+                <img width = "160px" height = "200px" src = "/src/images/Vismay.jpg"/>
+            </div>
+        </div>
     </div>
 
     <div class = "border-3 py-3 my-5 joinUs">
