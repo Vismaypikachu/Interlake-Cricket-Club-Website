@@ -142,7 +142,7 @@
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
-                <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
+                <img width = "135px" height = "200px" src = "/src/images/akshar.png"/>
             </div>
         </div>
 
