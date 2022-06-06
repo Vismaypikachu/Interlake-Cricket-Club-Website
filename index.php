@@ -111,8 +111,8 @@
         </div>
         <br>
     </div>
-    
-    <div class = "container">
+
+    <div class = "container" height = "600px">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
