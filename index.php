@@ -155,7 +155,7 @@
                     Vismay Patel is a Sophomore enrolled in the ALS (Advanced Learning Services) International 
                     Baccalaureate Diploma Program at Interlake High School, in Bellevue, Washington. Vismay's hobbies 
                     are programming, rocketry, aviation, and gaming. Check out his website <a href="https://vismaypatel.com">
-                    here</a>, as he is also the creator of this website! Vismay's favorite flavor of Ice Cream is Chocolate Chip 
+                    here</a>, as he is also the creator of this website! Vismay's favorite flavor of ice cream is Chocolate Chip 
                     mixed with Cookies & Cream. Vismay is the Secretary and Treasurer of the Interlake Cricket Club.
                 </p>
             </div>
@@ -171,8 +171,8 @@
                 <h2 class="featurette-heading">Director of Media <span class="text-muted">Aniketh Bondada</span></h2>
                 <p class="lead">
                     Aniketh Bondada is a Sophmore enrolled at Interlake High School in Bellevue, Washington. 
-                    He is ranked as TOP 10 in the Under 19 category of US cricket players. Aniketh is one of the
-                    Directors of Media of the Interlake Cricket Club.
+                    He is ranked as TOP 15 in the Under 19 category of US cricket players. He does not like ice cream,
+                    but rather likes Dahi (Indian Yoghurt). Aniketh is one of the Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
@@ -186,7 +186,9 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">Director of Media <span class="text-muted">Krish Wasson</span></h2>
                 <p class="lead">
-                    Krish Wasson is a Sophomore enrolled at Interlake High School, in Bellevue, Washington. Krish 
+                    Krish Wasson is a Sophomore enrolled at Interlake High School, in Bellevue, Washington. Krish is part
+                    of the Interlake Basketball Team and his favorite Formula 1 driver is Daniel Riccardio. He also enjoys 
+                    listening to Kendrick Lamar's album, Mr. Morale. Krish's favorite ice cream flavor is lychee ice cream. Krish 
                     is one of the Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
