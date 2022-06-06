@@ -137,8 +137,9 @@
                 <h2 class="featurette-heading">Vice President <span class="text-muted">Akshar Adurty</span></h2>
                 <p class="lead">
                     Akshar Adurty is a Junior enrolled in the Running Start Program at Interlake High School and
-                    Bellevue College, in Bellevue, Washington. He hates frogs with a passion. Akshar is the Vice President 
-                    of the Interlake Cricket Club.
+                    Bellevue College, in Bellevue, Washington. His hobbies include running and video games. His 
+                    favorite ice cream is Kulfi (Indian Frozen Treat). He hates frogs with a passion. Akshar is 
+                    the Vice President of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
