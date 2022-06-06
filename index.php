@@ -112,7 +112,7 @@
         <br>
     </div>
 
-    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
+    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto" style="display: flex; justify-content: center; align-items: center;">      
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
@@ -123,7 +123,7 @@
                     Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-5">
                 <img width = "150px" height = "200px" src = "/src/images/manthan.png"/>
             </div>
         </div>
@@ -139,7 +139,7 @@
                     of the Interlake Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-5 order-md-1">
                 <img width = "150px" height = "200px" src = "/src/images/frog.jpg"/>
             </div>
         </div>
@@ -157,7 +157,7 @@
                     mixed with Cookies & Cream. Vismay is the Secretary and Treasurer of the Interlake Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-5">
                 <img width = "160px" height = "200px" src = "/src/images/Vismay.jpg"/>
             </div>
         </div>
@@ -173,7 +173,7 @@
                     Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-5 order-md-1">
                 <img width = "161px" height = "200px" src = "/src/images/aniketh.png"/>
             </div>
         </div>
@@ -188,7 +188,7 @@
                     is one of the Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
-            <div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col-md-5">
                 <img width = "160px" height = "200px" src = "/src/images/Vismay.jpg"/>
             </div>
         </div>
