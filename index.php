@@ -174,7 +174,7 @@
                 <p class="lead">
                     Aniketh Bondada is a Sophmore enrolled at Interlake High School in Bellevue, Washington. 
                     He is ranked as TOP 15 in the Under 19 category of US cricket players. He does not like ice cream,
-                    but rather likes Dahi (Indian Yoghurt). Aniketh is one of the Directors of Media of the Interlake Cricket Club.
+                    but rather likes Dahi (Indian Yogurt). Aniketh is one of the Directors of Media of the Interlake Cricket Club.
                 </p>
             </div>
             <div class="col-md-5 order-md-1" style="display: flex; justify-content: center; align-items: center;">
