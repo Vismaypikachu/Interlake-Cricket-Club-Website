@@ -112,7 +112,8 @@
         <br>
     </div>
 
-    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">      
+    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">   
+        <h1>The Officers</h1>   
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">President <span class="text-muted">Manthan Jain</span></h2>
