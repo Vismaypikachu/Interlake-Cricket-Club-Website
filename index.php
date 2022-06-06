@@ -112,7 +112,7 @@
         <br>
     </div>
 
-    <div class = "border-3 border-top border-bottom py-3 my-5 officers mx-auto">   
+    <div class = "border-3 border-top border-bottom py-3 my-5 mx-auto officers" width = "90%">   
         <h1>The Officers</h1>   
         <br>
         <div class="row featurette">
