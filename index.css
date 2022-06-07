@@ -115,15 +115,6 @@ tr:nth-child(even){
     margin-bottom: 0;
 }
 
-.carousel-inner > .item {
-    height: 400px;
- }
-/* .carousel-item img{
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-} */
-
 .officers{
     width: 90%;
     font-family: Avenir;
