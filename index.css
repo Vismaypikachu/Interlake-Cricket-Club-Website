@@ -118,11 +118,11 @@ tr:nth-child(even){
 .carousel-inner > .item {
     height: 400px;
  }
-.carousel-item img{
+/* .carousel-item img{
     width: auto;
     height: 225px;
     max-height: 225px;
-}
+} */
 
 .officers{
     width: 90%;
