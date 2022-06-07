@@ -116,7 +116,7 @@ tr:nth-child(even){
 }
 
 
-.carousel-item{
+.carousel-item img{
     width: auto;
     height: 225px;
     max-height: 225px;
